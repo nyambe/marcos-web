@@ -1,10 +1,13 @@
 <template>
-  <main class="container mx-auto px-5">
+  <main
+    data-theme="light"
+    class="mx-auto prose lg:prose-2xl scroll-smooth md:scroll-auto snap-both prose-a:no-underline max-w-none"
+  >
     <ContentDoc v-slot="{ doc }">
+      <ContentRenderer :value="doc" />
       <pre>
         {{ doc }}
       </pre>
-      <ContentRenderer :value="doc" />
     </ContentDoc>
   </main>
 </template>

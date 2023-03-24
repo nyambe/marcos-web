@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   content: {
     documentDriven: true,
     navigation: {
-      fields: ["tipo", "publishedAt"],
+      fields: ["tipo", "texto", "destino"],
     },
   },
 });
