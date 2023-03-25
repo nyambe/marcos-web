@@ -1,5 +1,5 @@
 <template>
-	<div class="navbar bg-base-100">
+	<div class="navbar bg-base-100 not-prose">
 	<div class="flex-1">
 		<router-link class="text-xl uppercase btn btn-ghost" to="/">
 		<ContentSlot :use="$slots.default" unwrap="p" />

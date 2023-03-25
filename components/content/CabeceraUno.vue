@@ -8,10 +8,7 @@
           <p class="py-6"><slot name="texto" /></p>
           <button class="btn btn-primary"><slot name="boton" /></button>
         </div>
-        <pre>
-		{{ $slots }}
-		</pre
-        >
+   
       </div>
     </div>
   </div>

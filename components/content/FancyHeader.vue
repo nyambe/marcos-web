@@ -1,7 +1,7 @@
 <template>
   <div
     class="min-h-screen hero not-prose"
-    style="background-image: url(/img/marcos.jpeg)"
+    style="background-image: url(/img/casas-con-jardin2.jpg)"
   >
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="text-center hero-content text-neutral-content">
@@ -16,7 +16,7 @@
         <p class="w-full max-w-3xl mb-10 text-2xl text-justify md:mb-24">
           <ContentSlot :use="$slots.texto" unwrap="p" />
         </p>
-        <button class="btn btn-primary">
+        <button v-if="$slots.boton" class="btn btn-primary">
           <ContentSlot :use="$slots.boton" unwrap="p" />
         </button>
       </div>

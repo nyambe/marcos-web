@@ -1,37 +1,18 @@
 
 
-::navegacion-principal
-
-::barra-navegacion
----
-icon: IconNuxt
-description: Harness the full power of Nuxt and the Nuxt ecosystem.
-title: Nuxt Architecd
-lista: ['queso/coasa', 'pan', 'torta']
----
-
-Casa con Jardin
-
-#titulo
-Hello [World]{.text-xl.bg-green-100.p-2}!
-
-
-#menu
-Hola que tal
-
-::
+:navegacion-principal
 
 ::fancy-header
 
 #titulo
-MKL
+Casas con Jardin
 
 #subtitulo
-Bienvenido a MKL
+Encuentra tu oasis
 
 #texto
-Servicios de mezcla, mastering y producción musical de alta calidad. Con años de experiencia en grabaciones de disco y trabajos de estudio, mi objetivo es brindar a nuestros clientes un sonido profesional y atractivo.
+Bienvenido a "Casa con Jardín", tu guía para encontrar la casa ideal con espacios verdes y diseño encantador. Explora propiedades únicas, descubre consejos de diseño de interiores y paisajismo, y crea el oasis perfecto en tu propio hogar. ¡Inspírate y transforma tu vida con un toque de naturaleza!
 
 #boton
-Servicios
+
 ::
