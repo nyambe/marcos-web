@@ -1,8 +1,10 @@
 ---
-title: "Casas felices"
-description: "Encuntra tu casa feliz"
-nombre: "hola que tal"
-elemento: "Elemento"
+title: Casas felices
+description: Encuntra tu casa feliz
+nombre: hola que tal
+elemento: Elemento
+type: queso
+lastmod: 2023-03-24T22:41:48.140Z
 ---
 
 # La importancia de una casa bonita para el estado de ánimo
