@@ -1,6 +1,6 @@
 <template>
   <div class="carousel carousel-center rounded-box">
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img src="/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Pizza" />
     </div>
     <div class="carousel-item">
@@ -32,7 +32,7 @@
         src="/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
         alt="Pizza"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 
