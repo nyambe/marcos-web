@@ -1,7 +1,7 @@
 <template>
 	<div class="not-prose">
 		<div class="shadow-xl card lg:card-side bg-base-100">
-  	<figure v-if="foto"><img :src="`/img/${foto}`" :alt="`${foto}`" /></figure>
+  	<figure v-if="foto"><nuxt-img :src="`/img/${foto}`" :alt="`${foto}`" /></figure>
 		<div class="card-body">
 			<h2 class="card-title"><ContentSlot :use="$slots.titulo" unwrap="p" /></h2>
 			<slot />

@@ -1,6 +1,6 @@
 <template>
 <div class="shadow-xl card bg-base-100 image-full not-prose">
-  <figure v-if="foto"><img :src="`/img/${foto}`" :alt="`${foto}`" /></figure>
+  <figure v-if="foto"><nuxt-img :src="`/img/${foto}`" :alt="`${foto}`" /></figure>
   <div class="card-body">
     <h2 class="font-bold card-title"> <ContentSlot :use="$slots.titulo" unwrap="p" /> </h2>
    <slot />
