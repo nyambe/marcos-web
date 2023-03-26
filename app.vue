@@ -1,9 +1,10 @@
 <template>
-  <div data-theme="black" class="w-full">
+  <div data-theme="garden" class="w-full">
     <div>
-      <LaNavegacion class="w-full max-w-7xl mx-auto" />
+      <!-- <LaNavegacion class="w-full mx-auto max-w-7xl"  /> -->
+      <NavegacionPrincipal />
       <NuxtPage />
-      <ElPie class="w-full max-w-7xl mx-auto" />
+      <ElPie />
     </div>
   </div>
 </template>

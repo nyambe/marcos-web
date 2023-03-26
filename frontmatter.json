@@ -1,0 +1,78 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.framework.id": "nuxt",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/content/blog",
+      "title": "blog",
+      "originalPath": "[[workspace]]/content/blog"
+    },
+    {
+      "path": "[[workspace]]/content/navegacion/cabecera"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "nombre",
+          "name": "nombre",
+          "type": "string"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "pagina",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "nombre",
+          "name": "nombre",
+          "type": "string"
+        },
+        {
+          "title": "elemento",
+          "name": "elemento",
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "default": "queso",
+          "hidden": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 <template>
-  <div class="navbar bg-base-100">
+  <div class="sticky top-0 z-50 bg-base-100 navbar not-prose">
     <div class="flex-none"></div>
     <div class="flex-1">
-      <router-link to="/" class="text-xl normal-case btn btn-ghost"
-        >MKL Music
-      </router-link>
+      <nuxt-link to="/" class="text-2xl font-bold normal-case btn btn-ghost"
+        >CASA CON JARDIN
+      </nuxt-link>
     </div>
     <div v-if="cabecera" class="flex-none">
-      <ul v-if="cabecera.children" class="px-1 menu menu-horizontal">
+      <ul v-if="cabecera.children" class="hidden px-1 text-sm menu menu-horizontal md:flex">
         <li v-for="item in cabecera.children">
-          <a>{{ item.texto }} </a>
+          <nuxt-link :to="`/${item.destino}`">{{ item.texto }} </nuxt-link>
         </li>
       </ul>
-      <button class="btn btn-square btn-ghost">
+      <button class="btn btn-square btn-ghost md:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
