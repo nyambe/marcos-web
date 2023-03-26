@@ -1,13 +1,13 @@
 <template>
-  <div class="navbar bg-base-100 not-prose">
+  <div class="sticky top-0 z-50 bg-base-100 navbar not-prose">
     <div class="flex-none"></div>
     <div class="flex-1">
-      <router-link to="/" class="text-xl normal-case btn btn-ghost"
+      <nuxt-link to="/" class="text-2xl font-bold normal-case btn btn-ghost"
         >CASA CON JARDIN
-      </router-link>
+      </nuxt-link>
     </div>
     <div v-if="cabecera" class="flex-none">
-      <ul v-if="cabecera.children" class="hidden px-1 menu menu-horizontal md:flex">
+      <ul v-if="cabecera.children" class="hidden px-1 text-sm menu menu-horizontal md:flex">
         <li v-for="item in cabecera.children">
           <nuxt-link :to="`/${item.destino}`">{{ item.texto }} </nuxt-link>
         </li>
