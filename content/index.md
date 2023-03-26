@@ -2,7 +2,7 @@
 ::fancy-header
 
 #titulo
-Casa con Jardin
+Casa con Jardín
 
 #subtitulo
 Encuentra tu oasis con jardín y diseño inspirador
@@ -59,7 +59,7 @@ Explorar
 
 ::bloque
 
-	:::fichas{foto="jardin.png" articulo="diseno-interiores-armonia-bienestar"}
+	:::ficha{foto="jardin.png" articulo="diseno-interiores-armonia-bienestar"}
 
 	Creando Armonía y Bienestar en tu Hogar. Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria
 
@@ -73,7 +73,7 @@ Explorar
 
 	::espacio
 
-	:::fichas{foto="casas-con-jardin2.jpg"}
+	:::ficha{foto="interiores.png" articulo="consejos-tendencias"}
 
 	Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
 
@@ -84,6 +84,35 @@ Explorar
 	Ver más
 
 	:::
+
+	::espacio
+
+	:::ficha{foto="beach-house.jpg" articulo="Consejos para comprar una casa de playa"}
+
+Si estás pensando en comprar una casa de playa, descubre los factores importantes que debes considerar antes de tomar una decisión, incluyendo ubicación, tamaño, estilo, costos y más. Obtén información valiosa para tomar una decisión informada sobre la compra de tu propia casa de playa. 
+
+#titulo
+Casas de playa
+
+#boton
+Ver más
+
+:::
+
+::espacio
+
+:::ficha{foto="mountain-cabin.jpg" articulo="Cómo construir una cabaña de montaña"}
+
+Si estás interesado en tener una escapada de montaña propia, aprende cómo construir una cabaña de montaña desde cero. Descubre los materiales y herramientas que necesitarás, así como consejos para planificar la ubicación y el diseño de tu cabaña de montaña. 
+
+#titulo
+Cabañas de montaña
+
+#boton
+Ver más
+
+:::
+
 
 
 ::
