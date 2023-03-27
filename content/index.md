@@ -1,5 +1,5 @@
 ---
-title: Casa con Jardín | Venta, Diseño, Inspiración, reportajes
+title: Casa con Jardín | Venta, Diseño, Inspiración, Reportajes
 description: Encuentra la casa con jardín de tus sueños y descubre un oasis inspirador en
   casas on jardin
 preview: /casas-con-jardin-small-jpg.webp
@@ -80,7 +80,7 @@ Explorar
 
 	::espacio
 
-	:::ficha{foto="interiores.png" articulo="consejos-tendencias"}
+	:::ficha{foto="interiores.png" articulo="blog/disena-manten-espacios-encantadores-en-tu-hogar"}
 
 	Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
 
@@ -94,7 +94,7 @@ Explorar
 
 	::espacio
 
-	:::ficha{foto="beach-house.jpg" articulo="Consejos para comprar una casa de playa"}
+	:::ficha{foto="beach-house.jpg" articulo="blog/consejos-para-comprar-una-casa-de-playa"}
 
 Si estás pensando en comprar una casa de playa, descubre los factores importantes que debes considerar antes...
 
@@ -102,7 +102,7 @@ Si estás pensando en comprar una casa de playa, descubre los factores important
 Casas de playa
 
 #boton
-Ver más
+Leer más
 
 :::
 
