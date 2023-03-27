@@ -6,12 +6,14 @@ specifiers:
   '@nuxtjs/google-fonts': ^3.0.0
   '@nuxtjs/i18n': ^7.3.1
   '@nuxtjs/tailwindcss': ^6.4.1
+  '@tailwindcss/line-clamp': ^0.4.2
   '@tailwindcss/typography': ^0.5.9
   daisyui: ^2.51.3
   nuxt: ^3.2.3
 
 dependencies:
   '@nuxtjs/i18n': 7.3.1
+  '@tailwindcss/line-clamp': 0.4.2
   daisyui: 2.51.3_j7yt3jd32cwenjqavrrga47yr4
 
 devDependencies:
@@ -1716,6 +1718,12 @@ packages:
   /@socket.io/component-emitter/3.1.0:
     resolution: {integrity: sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==}
     dev: true
+
+  /@tailwindcss/line-clamp/0.4.2:
+    resolution: {integrity: sha512-HFzAQuqYCjyy/SX9sLGB1lroPzmcnWv1FHkIpmypte10hptf4oPUfucryMKovZh2u0uiS9U5Ty3GghWfEJGwVw==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
+    dev: false
 
   /@tailwindcss/typography/0.5.9:
     resolution: {integrity: sha512-t8Sg3DyynFysV9f4JDOVISGsjazNb48AeIYQwcL+Bsq5uf4RYL75C1giZ43KISjeDGBaTN3Kxh7Xj/vRSMJUUg==}

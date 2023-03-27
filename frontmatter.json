@@ -19,58 +19,44 @@
     {
       "name": "default",
       "pageBundle": false,
+      "previewPath": null,
       "fields": [
         {
-          "title": "title",
+          "title": "Title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "description",
+          "title": "Description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "nombre",
-          "name": "nombre",
-          "type": "string"
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
         },
         {
-          "title": "lastmod",
-          "name": "lastmod",
-          "type": "datetime"
-        }
-      ]
-    },
-    {
-      "name": "pagina",
-      "pageBundle": false,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
         },
         {
-          "title": "description",
-          "name": "description",
-          "type": "string"
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
         },
         {
-          "title": "nombre",
-          "name": "nombre",
-          "type": "string"
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
         },
         {
-          "title": "elemento",
-          "name": "elemento",
-          "type": "string"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "default": "queso",
-          "hidden": true
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }

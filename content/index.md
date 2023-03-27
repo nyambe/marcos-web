@@ -1,3 +1,10 @@
+---
+title: Casa con Jardín | Venta, Diseño, Inspiración, reportajes
+description: Encuentra la casa con jardín de tus sueños y descubre un oasis inspirador en
+  casas on jardin
+preview: /casas-con-jardin-small-jpg.webp
+image: /img/casas-con-jardin-small-jpg.webp 
+---
 
 ::fancy-header
 
@@ -89,7 +96,7 @@ Explorar
 
 	:::ficha{foto="beach-house.jpg" articulo="Consejos para comprar una casa de playa"}
 
-Si estás pensando en comprar una casa de playa, descubre los factores importantes que debes considerar antes de tomar una decisión, incluyendo ubicación, tamaño, estilo, costos y más. Obtén información valiosa para tomar una decisión informada sobre la compra de tu propia casa de playa. 
+Si estás pensando en comprar una casa de playa, descubre los factores importantes que debes considerar antes...
 
 #titulo
 Casas de playa
@@ -103,7 +110,7 @@ Ver más
 
 :::ficha{foto="mountain-cabin.jpg" articulo="Cómo construir una cabaña de montaña"}
 
-Si estás interesado en tener una escapada de montaña propia, aprende cómo construir una cabaña de montaña desde cero. Descubre los materiales y herramientas que necesitarás, así como consejos para planificar la ubicación y el diseño de tu cabaña de montaña. 
+Si estás interesado en tener una escapada de montaña propia, aprende cómo construir una cabaña de montaña desde cero... 
 
 #titulo
 Cabañas de montaña
@@ -112,6 +119,20 @@ Cabañas de montaña
 Ver más
 
 :::
+
+::espacio
+:::ficha{foto="herb-garden.jpg" articulo="Cómo hacer crecer un jardín de hierbas en tu casa"}
+
+Aprende cómo hacer crecer un jardín de hierbas frescas en tu casa, incluso si no tienes un jardín exterior. Descubre cómo seleccionar las hierbas adecuadas, cómo plantar y cuidar tus hierbas en macetas, y cómo utilizar tus hierbas frescas para cocinar y disfrutar de una vida más saludable.
+
+#titulo
+Jardín de hierbas
+
+#boton
+Ver más
+
+:::
+
 
 
 

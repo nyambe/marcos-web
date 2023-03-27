@@ -1,11 +1,16 @@
 ---
 title: "La Magia del Diseño de Interiores: Creando Armonía y Bienestar en tu Hogar"
-description: "Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria, fomentando la armonía y el bienestar en tu hogar."
-nombre: "Asun Tello"
-slug: "diseno-interiores-armonia-bienestar"
+description: Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria,
+  fomentando la armonía y el bienestar en tu hogar.
+nombre: Asun Tello
+slug: diseno-interiores-armonia-bienestar
+preview: /jardin.webp
+image: /img/jardin.webp
 ---
 
 ## La Magia del Diseño de Interiores: Creando Armonía y Bienestar en tu Hogar
+
+![La magia del diseño de interiores](/img/jardin.png)
 
 **Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria, fomentando la armonía y el bienestar en tu hogar.**
 

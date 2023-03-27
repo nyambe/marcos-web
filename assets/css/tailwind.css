@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .contenido {
+    @apply mx-auto  max-w-screen-2xl
+  }
+}
+
 
 @layer base {
   html {
@@ -10,4 +16,5 @@
   h1 {
 	font-family: Lore, serif
   }
+
 }

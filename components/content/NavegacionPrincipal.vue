@@ -2,7 +2,7 @@
   <div class="sticky top-0 z-50 bg-base-100 navbar not-prose">
     <div class="flex-none"></div>
     <div class="flex-1">
-      <nuxt-link to="/" class="text-2xl font-bold normal-case btn btn-ghost"
+      <nuxt-link to="/" class="text-xl font-bold normal-case md:text-2xl btn btn-ghost"
         >CASA CON JARDIN
       </nuxt-link>
     </div>

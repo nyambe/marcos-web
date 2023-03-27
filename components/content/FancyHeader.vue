@@ -1,17 +1,17 @@
 <template>
   <div
-    class="min-h-screen hero not-prose"
-    style="background-image: url(/img/casas-con-jardin2.jpg)"
+    class="min-h-fit hero not-prose fancy-header"
+    style="background-image: url(/img/casa-con-jardin.webp)"
   >
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="text-center hero-content text-neutral-content">
     
-      <div class="pt-20 max-w-7xl">
-        <h1 class="py-2 text-6xl font-bold">
+      <div class="py-20 max-w-7xl">
+        <h1 class="py-2 text-3xl font-bold md:text-7xl ">
           <ContentSlot :use="$slots.titulo" unwrap="p" />
         </h1>
 
-        <h2 class="pb-2 text-4xl md:pb-10">
+        <h2 class="p-2 text-3xl lg:text-4xl md:pb-10">
           <ContentSlot :use="$slots.subtitulo" unwrap="p" />
         </h2>
         <p class="w-full max-w-5xl mb-10 text-2xl text-justify md:mb-24">
