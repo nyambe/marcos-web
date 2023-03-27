@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 z-50 bg-base-100 navbar not-prose">
+  <div class="sticky top-0 z-50 bg-base-100 text-primary navbar not-prose">
     <div class="flex-none"></div>
     <div class="flex-1">
       <nuxt-link to="/" class="text-xl font-bold normal-case md:text-2xl btn btn-ghost"

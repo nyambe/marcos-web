@@ -6,9 +6,9 @@
     <div class="mx-2 md:mx-small lg:mx-medium">
        <ContentDoc  v-slot="{ doc }">
       <ContentRenderer :value="doc" />
-      <pre>
+      <!-- <pre>
         {{ doc }}
-      </pre>
+      </pre> -->
     </ContentDoc>
     </div>
   </main>
