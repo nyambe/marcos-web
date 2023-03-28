@@ -38,7 +38,7 @@ Explorar
 
 	:::card{foto="interiores.png"}
 
-	Descubre las últimas tendencias y consejos en diseño de interiores para convertir tu casa en un espacio elegante y acogedo
+	Descubre las últimas tendencias y consejos en diseño de interiores para convertir tu casa en un espacio elegante y acogedor
 
 	#titulo
 	Inspiración en Diseño de Interiores

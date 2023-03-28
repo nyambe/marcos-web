@@ -1,5 +1,10 @@
 <template>
   <div class="py-5 not-prose">
+    <Head>
+      <Title>Inspiración y Diseño</Title>
+      <Meta name="description" content="Descubre las últimas tendencias y consejos en diseño de interiores para convertir tu casa en un espacio elegante y acogedor" />
+      <Meta name="og:image" content="/img/espacios.webp" />
+    </Head>
     <h1 class="mb-5 text-4xl text-center uppercase text-primary">
       Inspiración
     </h1>

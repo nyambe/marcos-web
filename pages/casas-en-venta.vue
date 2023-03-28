@@ -1,5 +1,10 @@
 <template>
   <div class="py-5 not-prose">
+    <Head>
+      <Title>Casas en venta</Title>
+      <Meta name="description" content="Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia." />
+      <Meta name="og:image" content="/img/casa-con-jardin.jpeg" />
+    </Head>
     <h1 class="mb-5 text-4xl text-center uppercase text-primary">
       Casas en venta
     </h1>
