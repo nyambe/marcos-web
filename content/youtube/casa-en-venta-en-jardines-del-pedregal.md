@@ -7,10 +7,11 @@ alt: Casa en Venta en Jardines del Pedregal
 width: 480
 height: 360
 slug: casa-en-venta-en-jardines-del-pedregal
-lastmod: 2023-03-28T05:39:21.343Z
+lastmod: 2023-03-28T22:57:01.099Z
 date: 2023-03-28T05:28:40.936Z
 draft: false
 type: youtube
+author: Luxence Inmobiliaria
 ---
 
 ## Casa en Venta en Jardines del Pedregal

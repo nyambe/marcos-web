@@ -1,8 +1,11 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.startCommand": "npm run dev",
+  "frontMatter.preview.host": "localhost:3000",
   "frontMatter.content.autoUpdateDate": true,
   "frontMatter.framework.id": "nuxt",
-  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.git.enabled": true,
   "frontMatter.content.pageFolders": [
     {
       "path": "[[workspace]]/content/blog",
@@ -15,7 +18,6 @@
     {
       "path": "[[workspace]]/content/youtube",
       "title": "Videos venta youtube"
-
     },
     {
       "path": "[[workspace]]/content/galeria",
@@ -114,9 +116,20 @@
           "type": "string"
         },
         {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "slug"
+        },
+        {
           "title": "image",
           "name": "image",
-          "type": "string"
+          "type": "string",
+          "isPreviewImage": false
         },
         {
           "title": "alt",
@@ -126,12 +139,12 @@
         {
           "title": "width",
           "name": "width",
-          "type": "datetime"
+          "type": "number"
         },
         {
           "title": "height",
           "name": "height",
-          "type": "datetime"
+          "type": "number"
         },
         {
           "title": "youtube",
@@ -139,10 +152,21 @@
           "type": "string"
         },
         {
-          "name": "type",
-          "type": "string",
-          "default": "youtube",
-          "hidden": true
+          "name": "etiquetas",
+          "type": "tags",
+          "title": "tags",
+          "taxonomyLimit": 5
+        },
+        {
+          "title": "categorias",
+          "name": "categorias",
+          "type": "tags",
+          "taxonomyLimit": 3
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
         },
         {
           "title": "lastmod",
@@ -158,6 +182,11 @@
           "title": "draft",
           "name": "draft",
           "type": "datetime"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
         }
       ]
     }
