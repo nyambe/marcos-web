@@ -110,6 +110,7 @@ Leer más
 
 :::ficha{foto="mountain-cabin.jpg" articulo="Cómo construir una cabaña de montaña"}
 
+
 Si estás interesado en tener una escapada de montaña propia, aprende cómo construir una cabaña de montaña desde cero... 
 
 #titulo
@@ -123,7 +124,7 @@ Ver más
 ::espacio
 :::ficha{foto="herb-garden.jpg" articulo="Cómo hacer crecer un jardín de hierbas en tu casa"}
 
-Aprende cómo hacer crecer un jardín de hierbas frescas en tu casa, incluso si no tienes un jardín exterior. Descubre cómo seleccionar las hierbas adecuadas, cómo plantar y cuidar tus hierbas en macetas, y cómo utilizar tus hierbas frescas para cocinar y disfrutar de una vida más saludable.
+Aprende cómo hacer crecer un jardín de hierbas frescas en tu casa, incluso si no tienes un jardín exterior. Descubre cómo seleccionar las hierbas adecuadas, cómo plantar y cuidar tus hierbas en macetas...
 
 #titulo
 Jardín de hierbas

@@ -6,11 +6,16 @@
   "frontMatter.content.pageFolders": [
     {
       "path": "[[workspace]]/content/blog",
-      "title": "blog",
-      "originalPath": "[[workspace]]/content/blog"
+      "title": "blog"
     },
     {
-      "path": "[[workspace]]/content/navegacion/cabecera"
+      "path": "[[workspace]]/content/navegacion/cabecera",
+      "title": "Items menú cabecera"
+    },
+    {
+      "path": "[[workspace]]/content/youtube",
+      "title": "Videos venta youtube"
+
     }
   ],
   "frontMatter.taxonomy.tags": [],
@@ -57,6 +62,98 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "string"
+        },
+        {
+          "title": "youtube",
+          "name": "youtube",
+          "type": "string"
+        },
+        {
+          "title": "alt",
+          "name": "alt",
+          "type": "string"
+        },
+        {
+          "title": "width",
+          "name": "width",
+          "type": "datetime"
+        },
+        {
+          "title": "height",
+          "name": "height",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "youtube",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "string"
+        },
+        {
+          "title": "alt",
+          "name": "alt",
+          "type": "string"
+        },
+        {
+          "title": "width",
+          "name": "width",
+          "type": "datetime"
+        },
+        {
+          "title": "height",
+          "name": "height",
+          "type": "datetime"
+        },
+        {
+          "title": "youtube",
+          "name": "youtube",
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "default": "youtube",
+          "hidden": true
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
         }
       ]
     }

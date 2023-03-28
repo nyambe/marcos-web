@@ -1,6 +1,7 @@
 ---
 title: "La Magia del Diseño de Interiores: Creando Armonía y Bienestar en tu Hogar"
-description: Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria,
+description:
+  Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria,
   fomentando la armonía y el bienestar en tu hogar.
 nombre: Asun Tello
 slug: diseno-interiores-armonia-bienestar
@@ -33,3 +34,14 @@ Crear un ambiente armónico es esencial para el bienestar de los habitantes de u
 - **Colores y tonos:** La selección de una paleta de colores equilibrada y coherente puede tener un efecto calmante en nuestra mente y emociones. Los colores neutros y suaves, como los grises, cremas y azules claros, pueden ayudar a crear una atmósfera tranquila y serena.
 
 - **Iluminación:** La iluminación adecuada es fundamental para crear una atmósfera cálida y acogedora. La luz natural es ideal, pero también es importante tener en cuenta la iluminación artificial, como lámparas de pie, de mesa y colgantes,
+
+:espacio
+::doble
+ :imagen{src="/img/jardin.png" alt="mi imagen"}
+   - **Colores y tonos:** La selección de una paleta de colores equilibrada y coherente puede tener un efecto calmante en nuestra mente y emociones. Los colores neutros y suaves, como los grises, cremas y azules claros, pueden ayudar a crear una atmósfera tranquila y serena.
+
+   :youtube{id="iNCiwFTJiIY"}
+
+   - **Iluminación:** La iluminación adecuada es fundamental para crear una atmósfera cálida y acogedora. La luz natural es ideal, pero también es importante tener en cuenta la iluminación artificial, como lámparas de pie, de mesa y colgantes,
+::
+:espacio
