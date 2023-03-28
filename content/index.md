@@ -9,7 +9,7 @@ image: /img/casas-con-jardin-small-jpg.webp
 ::fancy-header
 
 #titulo
-Casa con Jardín
+Casa con jardín
 
 #subtitulo
 Encuentra tu oasis con jardín y diseño inspirador

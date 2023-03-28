@@ -3,7 +3,7 @@
     <pre>
 ---
 title: {{ info.title }}
-description: {{ info.title }} - {{ info.author_name }}
+description: {{ info.author_name }}
 image: {{ info.thumbnail_url }}
 alt: {{ info.title }}
 width: {{ info.thumbnail_width }}

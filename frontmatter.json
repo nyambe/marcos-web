@@ -16,6 +16,10 @@
       "path": "[[workspace]]/content/youtube",
       "title": "Videos venta youtube"
 
+    },
+    {
+      "path": "[[workspace]]/content/galeria",
+      "title": "Inspiración y diseño"
     }
   ],
   "frontMatter.taxonomy.tags": [],
