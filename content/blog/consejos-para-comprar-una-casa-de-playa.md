@@ -11,7 +11,7 @@ tags:
 categories:
   - consejos
 image: /img/beach-house.jpg
-lastmod: 2023-03-29T06:44:36.550Z
+lastmod: 2023-03-29T10:17:18.419Z
 slug: consejos-para-comprar-una-casa-de-playa
 ---
 
@@ -34,3 +34,23 @@ Otro factor importante es el tamaño y estilo de la casa de playa. ¿Buscas una 
 Por supuesto, otro factor importante a considerar al comprar una casa de playa son los costos asociados. No solo debes considerar el precio de compra de la casa, sino también los costos asociados con la propiedad, como los impuestos y los gastos de mantenimiento. Asegúrate de tener en cuenta estos costos al calcular tu presupuesto para la compra de una casa de playa.
 
 Siguiendo estos consejos útiles, estarás mejor preparado para tomar una decisión informada sobre la compra de una casa de playa. ¡Prepárate para disfrutar de un estilo de vida relajado en la costa!
+
+
+:espacio
+
+::doble
+:imagen{src="/img/casa-con-jardin.jpeg" alt="Casa de mis sueños" titulo="La casa de mis sueños" caption="Si viviera aquí, me encantaría" descripcion="Esta imagen es de una casa en un barrio de lujo" }
+
+- uno 
+- dos
+- tres
+
+
+::
+:espacio
+
+
+
+:imagen{src="/img/casa-con-jardin.webp" alt="Imagen de ..." titulo="Imagen de la portada" }
+
+:espacio

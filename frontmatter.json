@@ -217,16 +217,47 @@
         }
       ]
     },
+    "Bloque de dos columnas": {
+      "description": "Introduccir un bloque de dos columnas",
+      "body": [
+        ":espacio",
+        "",
+        "::doble",
+        "[[izquierda]]",
+        "",
+        "[[derecha]]",
+        "::",
+        ":espacio",
+        ""
+      ],
+      "fields": [
+        {
+          "name": "izquierda",
+          "title": "Contenido de la izquierda",
+          "type": "string",
+          "single": true,
+          "default": "### Este es el contenido de la izquierda"
+        },
+        {
+          "name": "derecha",
+          "title": "Contenido de la de derecha",
+          "type": "string",
+          "single": true,
+          "default": "### Este es el contenido de la derecha"
+        }
+      ]
+    },
     "Image snippet": {
-      "description": "Image with caption",
-      "body": "{{< caption src=\"[[&mediaUrl]]\" caption=\"[[caption]]\" class=\"[[className]]\" >}}",
+      "description": "Introducir imagen con alt y title",
+      "body": ":imagen{src=\"[[&mediaUrl]]\" alt=\"[[alt]]\" titulo=\"[[title]]\" caption=\"[[caption]]\" descripcion=\"[[descripcion]]\" }",
       "isMediaSnippet": true,
       "fields": [
         {
-          "name": "className",
-          "title": "Class name",
+          "name": "descripcion",
+          "title": "descripcción de la imagen",
           "type": "string",
-          "default": "image__caption"
+          "single": true,
+          "default": "Esta imagen es de"
         }
       ]
     }
