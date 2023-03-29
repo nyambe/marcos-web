@@ -1,13 +1,18 @@
 ---
 title: Hermosa área social de casa totalmente equipada en venta en Conkal
-description: Hermosa área social de casa totalmente equipada en venta en Conkal🪷 #jardin #merida #inmobiliaria - Base Cúbica Inmobiliaria en Mérida
+description: Base Cúbica Inmobiliaria en Mérida
 image: https://i.ytimg.com/vi/kesbhYOKFpA/hqdefault.jpg
-alt: Hermosa área social de casa totalmente equipada en venta en Conkal🪷 #jardin #merida #inmobiliaria
-width: 480
-height: 360
+alt: "foto Hermosa área social de casa totalmente equipada en venta en Conkal🪷
+  #jardin #merida #inmobiliaria"
+width: 200
+height: 113
 youtube: kesbhYOKFpA
-slug: hermosa-area-social-de-casa-totalmente-equipada-en-venta-en-conkal-jardin-merida-inmobiliaria
+slug: "Hermosa área social de casa totalmente equipada en venta en Conkal🪷 #jardin
+  #merida #inmobiliaria"
 type: youtube
+author: Base Cúbica Inmobiliaria en Mérida
+lastmod: 2023-03-29T08:19:37.019Z
+date: 2023-03-22T09:18:54.000Z
 ---
 
 ## Hermosa área social de casa totalmente equipada en venta en Conkal🪷 #jardin #merida #inmobiliaria
