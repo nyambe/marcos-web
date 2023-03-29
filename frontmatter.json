@@ -6,6 +6,13 @@
   "frontMatter.framework.id": "nuxt",
   "frontMatter.content.publicFolder": "public",
   "frontMatter.git.enabled": true,
+  "frontMatter.custom.scripts": [
+    {
+      "title": "Obtener datos youtube",
+      "script": ".frontmatter/scripts/get-youtube-data-from-id.js",
+      "command": "~/.nvm/versions/node/v16.15.1/bin/node"
+    }
+  ],
   "frontMatter.content.pageFolders": [
     {
       "path": "[[workspace]]/content/blog",
@@ -190,5 +197,38 @@
         }
       ]
     }
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Título y video": {
+      "description": "Introduccir el titulo y el video de youtube",
+      "body": [
+        "## [[&title]]",
+        "",
+        ":youtube{ id=\"[[youtube]]\" }",
+        ""
+      ],
+      "fields": [
+        {
+          "name": "youtube",
+          "title": "Id de youtube",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    },
+    "Image snippet": {
+      "description": "Image with caption",
+      "body": "{{< caption src=\"[[&mediaUrl]]\" caption=\"[[caption]]\" class=\"[[className]]\" >}}",
+      "isMediaSnippet": true,
+      "fields": [
+        {
+          "name": "className",
+          "title": "Class name",
+          "type": "string",
+          "default": "image__caption"
+        }
+      ]
+    }
+  }
 }

@@ -3,15 +3,15 @@ title: Consejos para comprar una casa de playa
 description: ¿Estás pensando en comprar una casa de playa para disfrutar de unas vacaciones
   tranquilas en la costa?
 date: 2023-03-27T05:52:27.064Z
-preview: /beach-house.jpg
-draft: true
+preview: /img/beach-house.jpg
+draft: false
 tags:
   - consejos
   - blog
 categories:
   - consejos
 image: /img/beach-house.jpg
-lastmod: 2023-03-27T05:59:24.004Z
+lastmod: 2023-03-29T06:44:36.550Z
 slug: consejos-para-comprar-una-casa-de-playa
 ---
 

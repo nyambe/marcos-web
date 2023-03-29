@@ -12,6 +12,7 @@
     "@nuxtjs/google-fonts": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.4.1",
     "@tailwindcss/typography": "^0.5.9",
+    "node-fetch": "2",
     "nuxt": "^3.2.3"
   },
   "dependencies": {

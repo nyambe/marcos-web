@@ -9,6 +9,7 @@ specifiers:
   '@tailwindcss/line-clamp': ^0.4.2
   '@tailwindcss/typography': ^0.5.9
   daisyui: ^2.51.3
+  node-fetch: '2'
   nuxt: ^3.2.3
 
 dependencies:
@@ -22,6 +23,7 @@ devDependencies:
   '@nuxtjs/google-fonts': 3.0.0_rollup@3.19.1
   '@nuxtjs/tailwindcss': 6.4.1_l74nkbeo44cj3ewlwwfb3q42bq
   '@tailwindcss/typography': 0.5.9
+  node-fetch: 2.6.9
   nuxt: 3.2.3_rollup@3.19.1
 
 packages:
