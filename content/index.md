@@ -62,9 +62,9 @@ Explorar
 
 ::
 
+:ventas
 
-
-::bloque
+::bloque{titulo="Artículos"}
 
 	:::ficha{foto="jardin.png" articulo="diseno-interiores-armonia-bienestar"}
 
@@ -134,7 +134,7 @@ Ver más
 
 :::
 
-
-
-
 ::
+
+:inspiradores
+

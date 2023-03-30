@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@nuxt/image-edge",
+    "nuxt-icon",
   ],
   googleFonts: {
     families: {

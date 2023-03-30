@@ -1,6 +1,6 @@
 <template>
-	<div class="not-prose">
-	 <figure><img :class="style"  :src="src" :alt="alt" /></figure>
+	<div class="w-full not-prose">
+	 <figure class="w-full max-w-5xl mx-auto"><img :class="style"  :src="src" :alt="alt" /></figure>
 	</div>
 </template>
 <script setup lang="ts">

@@ -2,15 +2,16 @@
 title: Villa moderna de estilo mediterráneo en exuberante paisaje
 description: Home Designing
 image: https://i.ytimg.com/vi/zhoYQMHIdK4/hqdefault.jpg
-alt: Modern Mediterranean Villa Set Within A Lush Landscape
-width: 480
-height: 360
+alt: foto Modern Mediterranean Villa Set Within A Lush Landscape
+width: 200
+height: 113
 youtube: zhoYQMHIdK4
 slug: villa-moderna-de-estilo-mediterraneo-en-exuberante-paisaje
-lastmod: 2023-03-28T08:32:21.485Z
+lastmod: 2023-03-30T06:24:14.275Z
 date: 2023-03-28T07:52:05.577Z
 draft: false
 type: youtube
+author: Home Designing
 ---
 
 ## Villa moderna de estilo mediterráneo situada en un exuberante paisaje

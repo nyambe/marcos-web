@@ -12,7 +12,7 @@ youtube: jPiro8pxuZQ
 etiquetas: ""
 categorias: ""
 draft: ""
-lastmod: 2023-03-30T04:30:11.689Z
+lastmod: 2023-03-30T05:01:48.544Z
 date: 2023-03-29T21:38:35.946Z
 type: youtube
 ---
@@ -38,4 +38,8 @@ Con cinco elegantes y cómodos apartamentos (tres en planta baja y dos en planta
 ::
 Sumérgete en la paz y la conexión con la naturaleza en este retiro único. ¡No esperes más, esta experiencia viral te está esperando en Asturias! 🌟🌳
 :espacio
-![Alt text](https://fotos15.apinmo.com/1275/18011702/52-9.jpg)
+
+:imagen{src="https://fotos15.apinmo.com/1275/18011702/52-10.jpg" alt="otra" titulo="foto" caption="de verdad" descripcion="Esta imagen es de" }
+
+:espacio
+

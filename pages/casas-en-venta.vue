@@ -37,6 +37,7 @@ const query: QueryBuilderParams = {
   limit: 10,
   sort: [{ date: -1 }],
 };
+
 </script>
 
 <style scoped></style>
