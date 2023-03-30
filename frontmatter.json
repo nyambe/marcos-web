@@ -223,9 +223,19 @@
         ":espacio",
         "",
         "::doble",
-        "[[izquierda]]",
         "",
-        "[[derecha]]",
+        " ::::simple",
+        "",
+        " [[izquierda]]",
+        "",
+        " ::::",
+        "",
+        " ::::simple",
+        "",
+        " [[derecha]]",
+        "",
+        " ::::",
+        "",
         "::",
         ":espacio",
         ""
@@ -236,14 +246,14 @@
           "title": "Contenido de la izquierda",
           "type": "string",
           "single": true,
-          "default": "### Este es el contenido de la izquierda"
+          "default": "Este es el contenido de la izquierda"
         },
         {
           "name": "derecha",
           "title": "Contenido de la de derecha",
           "type": "string",
           "single": true,
-          "default": "### Este es el contenido de la derecha"
+          "default": "Este es el contenido de la derecha"
         }
       ]
     },

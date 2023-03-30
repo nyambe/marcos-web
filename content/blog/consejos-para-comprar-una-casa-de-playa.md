@@ -11,7 +11,7 @@ tags:
 categories:
   - consejos
 image: /img/beach-house.jpg
-lastmod: 2023-03-29T10:17:18.419Z
+lastmod: 2023-03-29T10:30:08.516Z
 slug: consejos-para-comprar-una-casa-de-playa
 ---
 
@@ -54,3 +54,19 @@ Siguiendo estos consejos útiles, estarás mejor preparado para tomar una decisi
 :imagen{src="/img/casa-con-jardin.webp" alt="Imagen de ..." titulo="Imagen de la portada" }
 
 :espacio
+
+:espacio
+
+::doble
+
+ ::::simple
+ :imagen{src="/img/casa-con-jardin.webp" alt="Imagen de casa con jardin" titulo="Imagen de la portada" caption="Casa con jardin.  Un oasis de inspiracion" descripcion="Esta imagen es de" }
+ ::::
+
+ ::::simple
+ Yo bien y tu?
+ ::::
+
+::
+:espacio
+
