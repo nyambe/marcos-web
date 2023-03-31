@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 not-prose">
+  <div class="py-5 mb-large md:mb-larger not-prose">
     <Head>
       <Title>Casas en venta</Title>
       <Meta name="description" content="Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia." />
@@ -13,7 +13,7 @@
         <nuxt-link :to="casa._path" v-for="(casa, i) in list" :key="i">
           <div class="w-full shadow-xl max-w-larger card bg-base-200">
             <div class="card-body">
-              <h2 class="card-title">En Venta</h2>
+              <div class="badge badge-outline"> {{ casa.etiquetas[0] }} </div>
               <p class="h-16">{{ casa.title }}</p>
             </div>
             <figure>

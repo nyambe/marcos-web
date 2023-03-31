@@ -2,17 +2,18 @@
 title: Casa con jardin y piscina en Llanes Asturias.  Los Bufones de Pría
 description: Pol Revilla - Inmojet
 author: Pol Revilla - Inmojet
-slug: casa-con-jardin-piscina-en-llanes-asturias-los-bufones-de-pria
+slug: /youtube/casa-con-jardin-y-piscina-en-llanes-asturias
 image: https://i.ytimg.com/vi/jPiro8pxuZQ/hqdefault.jpg
 alt: foto 1.275.000 € - Vive en Llanes, Asturias, con jardín y piscina. Los Bufones
   de Pría te esperan.
 width: 200
 height: 113
 youtube: jPiro8pxuZQ
-etiquetas: ""
+etiquetas:
+  - en venta
 categorias: ""
 draft: ""
-lastmod: 2023-03-30T05:01:48.544Z
+lastmod: 2023-03-31T05:59:07.628Z
 date: 2023-03-29T21:38:35.946Z
 type: youtube
 ---

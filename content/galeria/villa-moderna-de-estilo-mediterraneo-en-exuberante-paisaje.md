@@ -6,8 +6,8 @@ alt: foto Modern Mediterranean Villa Set Within A Lush Landscape
 width: 200
 height: 113
 youtube: zhoYQMHIdK4
-slug: villa-moderna-de-estilo-mediterraneo-en-exuberante-paisaje
-lastmod: 2023-03-30T06:24:14.275Z
+slug: /galeria/villa-moderna-de-estilo-mediterraneo-en-exuberante-paisaje
+lastmod: 2023-03-31T06:01:57.325Z
 date: 2023-03-28T07:52:05.577Z
 draft: false
 type: youtube

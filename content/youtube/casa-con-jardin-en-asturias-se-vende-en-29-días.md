@@ -2,16 +2,17 @@
 title: Casa con jardin en Asturias se vende en 29 días
 description: Pol Revilla - Inmojet
 author: Pol Revilla - Inmojet
-slug: casa-con-jardin-en-asturias-se-vende-en-29-dias
+slug: /youtube/casa-con-jardin-en-asturias-se-vende-en-29-dias
 image: https://i.ytimg.com/vi/QLuOm6J-tiw/hqdefault.jpg
 alt: foto V E N D I D A en 29 días - Casa con jardín en Asturias, Villaviciosa
 width: 200
 height: 113
 youtube: QLuOm6J-tiw
-etiquetas: ""
+etiquetas:
+  - vendida
 categorias: ""
 draft: ""
-lastmod: 2023-03-29T08:05:26.273Z
+lastmod: 2023-03-31T05:59:58.119Z
 date: 2023-03-29T07:37:42.355Z
 type: youtube
 ---

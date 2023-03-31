@@ -8,7 +8,7 @@
         <nuxt-link class="carousel-item" :to="casa._path" v-for="(casa, i) in list" :key="i">
           <div class="w-64 shadow-xl md:w-larger card bg-base-200">
             <div class="card-body">
-              <div class="text-sm">Se vende</div>
+               <div class="badge badge-primary"> {{ casa.etiquetas[0] }} </div>
               <p class="text-sm">{{ casa.title }}</p>
             </div>
 

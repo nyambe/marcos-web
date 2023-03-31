@@ -6,9 +6,9 @@
     <ContentList :query="query" v-slot="{ list }">
       <div class="p-2 space-x-2 md:p-4 md:space-x-4 carousel carousel-center bg-neutral rounded-box">
         <nuxt-link class="carousel-item" :to="casa._path" v-for="(casa, i) in list" :key="i">
-          <div class="w-64 shadow-xl md:w-larger card bg-base-200">
-            <div class="card-body">
-              <div class="text-sm">{{ casa.author }} </div>
+          <div class="w-64 shadow-xl md:w-larger card bg-secondary">
+            <div class="card-body text-secondary-content">
+              <div v-if="casa.author" class="badge badge-primary">{{ casa.author }} </div>
               <p class="text-sm">{{ casa.title }}</p>
             </div>
 
