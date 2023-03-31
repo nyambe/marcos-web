@@ -12,7 +12,8 @@ type: youtube
 author: Pol Revilla - Inmojet
 etiquetas:
   - en venta
-lastmod: 2023-03-31T05:55:39.220Z
+lastmod: 2023-03-31T10:25:57.489Z
+date: 2023-03-15T10:33:54.000Z
 ---
 
 ## 270.000 € - Chalet individual en planta baja, a la venta en Siero, La Carrera. Asturias.
