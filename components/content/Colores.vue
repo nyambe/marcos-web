@@ -1,11 +1,23 @@
 <template>
-  <div class="not-prose">
-    <div>
-      <h2 class="px-2 pb-4 text-xl font-bold">Preview</h2>
-      <div data-theme="light" class="bg-transparent">
+  <div ref="elemento" class="not-prose" data-theme="garden">
+    <div class="p-2">
+      <h2 class="pb-4 text-xl font-bold uppercase">
+        Plantilla actual: {{ currentTheme }}
+      </h2>
+      <h4 class="text-xs">plantillas</h4>
+      <div class="grid grid-cols-4 gap-1 md:grid-cols-8">
+        <button
+          class="btn btn-xs"
+          @click="changeTheme(theme)"
+          v-for="theme in themes"
+          :key="theme"
+        >
+          <span class="">{{ theme }} </span>
+        </button>
+      </div>
+      <div class="bg-transparent">
         <div
-          class="grid gap-3 p-6 border rounded-box bg-base-100 border-base-content/5 text-base-content not-prose"
-          data-theme="garden"
+          class="grid gap-3 p-6 border rounded-box bg-base-100 border-base-content/5 text-base-content"
         >
           <div class="grid grid-cols-2 gap-2 md:grid-cols-4">
             <button class="btn">Default</button>
@@ -359,6 +371,52 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const currentTheme = ref("garden");
+const elemento = ref<HTMLDivElement | null>(null);
+
+const themes = [
+  "light",
+  "dark",
+  "cupcake",
+  "bumblebee",
+  "emerald",
+  "corporate",
+  "synthwave",
+  "retro",
+  "cyberpunk",
+  "valentine",
+  "halloween",
+  "garden",
+  "forest",
+  "aqua",
+  "lofi",
+  "pastel",
+  "fantasy",
+  "wireframe",
+  "black",
+  "luxury",
+  "dracula",
+  "cmyk",
+  "autumn",
+  "business",
+  "acid",
+  "lemonade",
+  "night",
+  "coffee",
+  "winter",
+];
+
+const changeTheme = (theme: string) => {
+  currentTheme.value = theme;
+
+  if (elemento.value) {
+    elemento.value.setAttribute("data-theme", currentTheme.value);
+    // localStorage.setItem("theme", them
+  }
+};
+
+changeTheme(currentTheme.value);
+</script>
 
 <style scoped></style>
