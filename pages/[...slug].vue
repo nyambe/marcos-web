@@ -27,6 +27,7 @@
 <script setup lang="ts">
 const { prev, next, type, page: test } = useContent();
 
+
 // const [prev, next] = await queryContent()
 //   .only(['_path', 'title'])
 //   .sort({ date: 1})

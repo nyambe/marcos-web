@@ -37,16 +37,17 @@
 :espacio
 
 ::doble
-::boton{class="btn-block" size="xlarge"}
+	::::boton{class="btn-block" size="xlarge"}
 
-Editar
+	Editar
 
-#prefix
-<Icon name="carbon:ai-results-low" />
-::
+	#suffix
+	<Icon name="ri:aliens-fill" />
+		
+  ::::
 
-::boton{intent="warning"}
+	::::boton{intent="warning"}
 
-::
-
-:espacio
+	::::
+:: 
+:testo

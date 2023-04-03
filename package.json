@@ -19,8 +19,10 @@
     "sitemap": "^7.1.1"
   },
   "dependencies": {
+    "@headlessui/tailwindcss": "^0.1.2",
     "@nuxtjs/i18n": "^7.3.1",
     "@tailwindcss/line-clamp": "^0.4.2",
+    "@vueuse/core": "^9.13.0",
     "class-variance-authority": "^0.5.1",
     "daisyui": "^2.51.3"
   }
