@@ -14,12 +14,14 @@
     "@tailwindcss/typography": "^0.5.9",
     "node-fetch": "2",
     "nuxt": "^3.2.3",
+    "nuxt-headlessui": "^1.1.1",
     "nuxt-icon": "^0.3.3",
     "sitemap": "^7.1.1"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^7.3.1",
     "@tailwindcss/line-clamp": "^0.4.2",
+    "class-variance-authority": "^0.5.1",
     "daisyui": "^2.51.3"
   }
 }

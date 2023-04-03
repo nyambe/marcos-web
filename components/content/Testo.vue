@@ -1,6 +1,5 @@
 <template>
   <div class="w-full">
-    jjj
     <h1>{{ contentQuery.length }}</h1>
     <pre>
 		{{ contentQuery }} 
