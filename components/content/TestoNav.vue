@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown">
     <Menu v-slot="{ open }">
-      <MenuButton class="btn btn-ghost ui-open:btn-primary"
+      <MenuButton class="group/menu btn btn-ghost ui-open:btn-primary"
         ><Icon
           :name="`${
             !open ? 'heroicons-solid:bars-2' : 'heroicons-solid:x-mark'
@@ -30,41 +30,10 @@
       </transition>
     </Menu>
   </div>
-  <div>
-    <h2>Disclosure</h2>
-    <Disclosure class="w-full" as="nav" v-slot="{ open }">
-      <DisclosureButton class="btn btn-ghost ui-open:btn-primary">
-        <Icon
-          :name="`${
-            !open ? 'heroicons-solid:bars-2' : 'heroicons-solid:x-mark'
-          }`"
-        />
-      </DisclosureButton>
-      <DisclosurePanel>
-        <div v-if="cabecera" class="pt-2 pb-3 space-y-1">
-          <DisclosureButton
-            class="w-full py-2 cursor-pointer bg-base-200 text-base-content hover:bg-primary hover:text-primary-content"
-            v-for="(item, i) in cabecera.children"
-            :key="i"
-          >
-            {{ item.texto }}
-          </DisclosureButton>
-        </div>
-      </DisclosurePanel>
-    </Disclosure>
-  </div>
 </template>
 
 <script setup lang="ts">
-import {
-  Menu,
-  MenuButton,
-  MenuItems,
-  MenuItem,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-} from "@headlessui/vue";
+import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
 export interface Navegacion {
   title: string;
   _path: string;

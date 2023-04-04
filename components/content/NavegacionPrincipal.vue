@@ -1,33 +1,64 @@
 <template>
-  <div class="sticky top-0 z-50 bg-base-100 text-primary navbar not-prose">
-    <div class="flex-none"></div>
-    <div class="flex-1">
-      <nuxt-link to="/" class="text-xl font-bold normal-case md:text-2xl btn btn-ghost"
-        >CASA CON JARDIN
-      </nuxt-link>
-    </div>
-    <div v-if="cabecera" class="flex-none">
-      <ul v-if="cabecera.children" class="hidden px-1 text-sm menu menu-horizontal md:flex">
-        <li v-for="item in cabecera.children">
-          <nuxt-link :to="`/${item.destino}`">{{ item.texto }} </nuxt-link>
-        </li>
-      </ul>
-        <div class="dropdown dropdown-end md:hidden">
-        <Menu v-slot="{ open }" >
-          <MenuButton class="group/menu btn btn-ghost ui-open:btn-primary"><Icon  :name="`${!open? 'heroicons-solid:bars-2': 'heroicons-solid:x-mark'}`" /></MenuButton>
-          <MenuItems v-if="cabecera" class="p-2 rounded shadow dropdown-content menu bg-base-100 w-52">
-            <MenuItem v-for="(item,i) in cabecera.children">
-              <nuxt-link class="p-2 ui-active:bg-primary hover:bg-base-300"  :to="`/${item.destino}`">{{ item.texto }} </nuxt-link>
-            </MenuItem>
-          </MenuItems>
-        </Menu>
+  <Disclosure v-slot="{ open }" as="div">
+    <div class="sticky top-0 z-50 bg-base-100 text-primary navbar not-prose">
+      <div class="flex-none"></div>
+      <div class="flex-1">
+        <nuxt-link
+          to="/"
+          class="text-xl font-bold normal-case md:text-2xl btn btn-ghost"
+          >CASA CON JARDIN
+        </nuxt-link>
+      </div>
+      <div v-if="cabecera" class="md:flex-none">
+        <ul
+          v-if="cabecera.children"
+          class="hidden px-1 text-sm menu menu-horizontal md:flex"
+        >
+          <li v-for="item in cabecera.children">
+            <nuxt-link :to="`/${item.destino}`">{{ item.texto }} </nuxt-link>
+          </li>
+        </ul>
+
+        <DisclosureButton class="btn btn-ghost ui-open:btn-primary md:hidden">
+          <Icon
+            :name="`${
+              !open ? 'heroicons-solid:bars-3' : 'heroicons-solid:x-mark'
+            }`"
+          />
+        </DisclosureButton>
       </div>
     </div>
-  </div>
+    <transition
+      enter-active-class="transition duration-100 ease-out"
+      enter-from-class="transform scale-95 opacity-0"
+      enter-to-class="transform scale-100 opacity-100"
+      leave-active-class="transition duration-75 ease-out"
+      leave-from-class="transform scale-100 opacity-100"
+      leave-to-class="transform scale-95 opacity-0"
+    >
+      <DisclosurePanel>
+        <div v-if="cabecera" class="pt-2 pb-3 space-y-1">
+          <DisclosureButton
+            @click="navAction(item)"
+            :class="[
+              item.destino === $route.name
+                ? 'bg-primary-focus text-primary-content'
+                : 'bg-base-200 text-base-content',
+            ]"
+            class="w-full py-2 cursor-pointer hover:bg-primary hover:text-primary-content"
+            v-for="(item, i) in cabecera.children"
+            :key="i"
+          >
+            {{ item.texto }}
+          </DisclosureButton>
+        </div>
+      </DisclosurePanel>
+    </transition>
+  </Disclosure>
 </template>
 
 <script setup lang="ts">
-import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 
 export interface Navegacion {
   title: string;
@@ -47,6 +78,17 @@ const cabecera = nav?.children?.find(
   item => item._path === "/navegacion/cabecera"
 );
 
+const isOpen = ref(false);
+const ruta = useRouter();
+
+function navAction(item: Navegacion) {
+  if (item.tipo === "ancla" && item.destino) {
+    ruta.push(item.destino);
+    return item.destino;
+  } else if (item.tipo === "enlace") {
+    return item.texto;
+  }
+}
 // const nav = navigation.value.find(item => item._path === "/navegacion");
 </script>
 
