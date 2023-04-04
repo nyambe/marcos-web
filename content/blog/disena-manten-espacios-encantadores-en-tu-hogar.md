@@ -3,17 +3,19 @@ title: Diseña y Mantén Espacios Encantadores en tu Hogar
 description: Aprende trucos y técnicas para crear y mantener espacios hermosos y
   funcionales que complementen perfectamente tu hogar
 date: 2023-03-27T05:30:45.110Z
-preview: /casas-con-jardin-small-jpg.webp
+preview: null
 draft: true
-tags: ""
+tags:
+  - Blog
 categories: ""
 slug: disena-manten-espacios-encantadores-en-tu-hogar
-lastmod: 2023-03-27T05:42:51.203Z
+lastmod: 2023-04-04T08:45:23.712Z
+image: /img/trucos-casa-con-jardin.png
 ---
 
 ## Consejos y Tendencias: Diseña y Mantén Espacios Encantadores en tu Hogar
 
-![Diseña y mantén espacios encantadores en tu hogar](/img/interiores.png)
+:imagen{src="/img/trucos-casa-con-jardin.png" alt="" titulo="Trucos" caption="" descripcion="Esta imagen es de" }
 
 **Aprende trucos y técnicas para crear y mantener espacios hermosos y funcionales que complementen perfectamente tu hogar.**
 
@@ -40,3 +42,5 @@ El diseño y mantenimiento de espacios encantadores y funcionales es esencial pa
 3. **Tecnología y automatización:** La incorporación de tecnología y sistemas de automatización en el diseño y mantenimiento de espacios puede mejorar la eficiencia energética, la seguridad y la comodidad en el hogar.
 
 4. **Estilos minimalistas y escandinavos:** Estos estilos siguen siendo populares debido a su enfoque en la simplicidad, la funcional
+
+:imagen{src="/img/trucos2-casa-con-jardin.png" alt="" titulo="trucos casa con jardin" caption="" descripcion="Esta imagen es de" }

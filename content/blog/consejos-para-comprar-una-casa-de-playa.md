@@ -1,9 +1,11 @@
 ---
-title: Consejos para comprar una casa de playa
-description: ¿Estás pensando en comprar una casa de playa para disfrutar de unas vacaciones
-  tranquilas en la costa?
+title: Guía para Comprar la Casa de Playa - Consejos y Consideraciones |
+  CasaConJardin.com
+description: Descubre los mejores consejos y consideraciones para comprar una casa de
+  playa. Aprende a elegir la ubicación ideal, evaluar el presupuesto y
+  planificar el mantenimiento en CasaConJardin.com
 date: 2023-03-27T05:52:27.064Z
-preview: /img/beach-house.jpg
+preview: /img/casa-playa-casa-con-jardin.png
 draft: false
 tags:
   - consejos
@@ -11,13 +13,13 @@ tags:
 categories:
   - consejos
 image: /img/beach-house.jpg
-lastmod: 2023-03-29T10:30:08.516Z
+lastmod: 2023-04-04T08:52:21.371Z
 slug: consejos-para-comprar-una-casa-de-playa
 ---
 
 ## Consejos para comprar una casa de playa 
 
-![Consejos para comprar una casa de playa](/img/beach-house.jpg)
+:imagen{src="/img/casa-playa-casa-con-jardin.png" alt="casa de playa" titulo="CASA DE PLAYA" caption="" descripcion="Esta imagen es de" }
 
 ¿Estás pensando en comprar una casa de playa para disfrutar de unas vacaciones tranquilas en la costa? Si es así, hay varios factores importantes que debes considerar antes de tomar una decisión. Aquí te presentamos algunos consejos útiles para ayudarte a tomar una decisión informada sobre la compra de una casa de playa.
 

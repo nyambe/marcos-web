@@ -83,7 +83,7 @@ const ruta = useRouter();
 
 function navAction(item: Navegacion) {
   if (item.tipo === "ancla" && item.destino) {
-    ruta.push(item.destino);
+    ruta.push(`/${item.destino}`);
     return item.destino;
   } else if (item.tipo === "enlace") {
     return item.texto;

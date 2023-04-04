@@ -1,9 +1,20 @@
 ---
-title: "Diseña un espacio de grabación en casa con estilo"
-description: "Cómo diseñar un espacio para grabar contenido y cursos en casa: Consejos de una interiorista"
-Autor: "Asun Tello"
+title: Diseña un espacio de grabación en casa con estilo
+description: Espacios de Grabación en Casa con Estilo - Diseña tu Estudio Casero Perfecto |
+  CasaConJardin.com
+Autor: Asun Tello
+type: youtube
+author: Asun Tello
+slug: disena-espacio-de-grabacion-en-casa-con-estilo
+image: /img/espacio-grabar.png
+etiquetas:
+  - blog
+date: 2023-04-13T08:22:09.000Z
+lastmod: 2023-04-04T08:23:55.048Z
 ---
 # Cómo diseñar un espacio para grabar contenido y cursos en casa: Consejos de una interiorista
+
+:imagen{src="/img/espacio-grabar.png" alt="" titulo="Espacio Grabar" caption="" descripcion="Esta imagen es de" }
 
 ## Introducción:
 
@@ -20,6 +31,8 @@ Una vez que se haya seleccionado el espacio, es importante pensar en los requisi
 El diseño de interiores es fundamental para crear un espacio atractivo y funcional para la grabación de video en casa. Se deben seleccionar elementos de decoración que sean simples y minimalistas para no distraer del contenido del video. El mobiliario, como las mesas y las sillas, debe ser moderno y limpio.
 
 Es importante elegir una paleta de colores adecuada para el espacio. Los tonos neutros son ideales para un fondo tranquilo que no distraiga del contenido del video. La iluminación es crucial para una grabación exitosa. Se deben evitar las luces fluorescentes duras y elegir en su lugar luces cálidas y suaves que produzcan una iluminación uniforme y difusa.
+
+:imagen{src="/img/como-grabar.png" alt="" titulo="Cómo Grabar" caption="" descripcion="Esta imagen es de" }
 
 ## Conclusión:
 

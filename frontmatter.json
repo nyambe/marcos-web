@@ -79,7 +79,7 @@
         {
           "title": "image",
           "name": "image",
-          "type": "string"
+          "type": "image"
         },
         {
           "title": "youtube",
@@ -135,8 +135,8 @@
         {
           "title": "image",
           "name": "image",
-          "type": "string",
-          "isPreviewImage": false
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "alt",
@@ -194,6 +194,21 @@
           "title": "type",
           "name": "type",
           "type": "string"
+        },
+        {
+          "title": "nombre",
+          "name": "nombre",
+          "type": "string"
+        },
+        {
+          "title": "elemento",
+          "name": "elemento",
+          "type": "string"
+        },
+        {
+          "title": "Autor",
+          "name": "Autor",
+          "type": "string"
         }
       ]
     }
@@ -201,11 +216,21 @@
   "frontMatter.content.snippets": {
     "Youtube Intro": {
       "description": "Generar automáticamente el titulo y el video de youtube",
-      "body": ["## {{ $doc.title}} ", "", ":youtube{ :id=\"youtube\" }", ""]
+      "body": [
+        "## {{ $doc.title}} ",
+        "",
+        ":youtube{ :id=\"youtube\" }",
+        ""
+      ]
     },
     "Título y video": {
       "description": "Introduccir el titulo y el video de youtube",
-      "body": ["## [[&title]]", "", ":youtube{ id=\"[[youtube]]\" }", ""],
+      "body": [
+        "## [[&title]]",
+        "",
+        ":youtube{ id=\"[[youtube]]\" }",
+        ""
+      ],
       "fields": [
         {
           "name": "youtube",

@@ -24,19 +24,19 @@ Explorar
 :espacio
 
 ::columnas
- 	:::card{foto="casas-con-jardin.jpg"}
+ 	:::card{foto="casas-con-jardin.jpg" enlace="/casas-en-venta"}
 
 	Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia.
 
 	#titulo
-	Casas destacadas
+	Casas con jardin en venta
 
 	#boton
-	Ver más
+	Ir
 
 	:::
 
-	:::card{foto="interiores.png"}
+	:::card{foto="interiores.png" enlace="/inspiracion"}
 
 	Descubre las últimas tendencias y consejos en diseño de interiores para convertir tu casa en un espacio elegante y acogedor
 
@@ -44,11 +44,11 @@ Explorar
 	Inspiración en Diseño de Interiores
 
 	#boton
-	Ver Más
+	Ver
 
 	:::
 
-	:::card{foto="espacios.png"}
+	:::card{foto="espacios.png" enlace="/blog" }
 
 	Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
 
@@ -56,7 +56,7 @@ Explorar
 	Consejos y tendencias
 
 	#boton
-	Ver más
+	Leer
 
 	:::
 
