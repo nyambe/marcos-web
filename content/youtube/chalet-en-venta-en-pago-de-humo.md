@@ -1,6 +1,6 @@
 ---
 title: Chalet en Venta en Pago de Humo
-description: ViviendasenChiclana
+description: "casa con jardin : ViviendasenChiclana"
 author: ViviendasenChiclana
 slug: /youtube/chalet-en-venta-en-pago-de-humo
 image: https://i.ytimg.com/vi/lVjsZdoQuPQ/hqdefault.jpg
@@ -12,11 +12,11 @@ etiquetas:
   - en venta
 categorias: ""
 draft: ""
-lastmod: 2023-04-04T05:15:12.773Z
+lastmod: 2023-04-04T05:37:24.167Z
 date: 2023-04-04T05:13:37.360Z
 type: youtube
 ---
 
 ## {{ $doc.title}}
 
-:youtube{ :id="youtube" }
+:youtube{ :id="youtube" alt="Chalet en Chiclana"}

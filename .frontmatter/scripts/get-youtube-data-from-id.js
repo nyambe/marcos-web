@@ -1,6 +1,6 @@
 // Importa el módulo 'node-fetch'
 const fetch = require("node-fetch");
-const slugify = (text) => {
+const slugify = text => {
   return text
     .toString()
     .normalize("NFD") // split an accented letter in the base letter and the acent
@@ -13,7 +13,7 @@ const slugify = (text) => {
 };
 
 // remove dot and accents from a string
-const removeDiacritics = (str) => {
+const removeDiacritics = str => {
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 };
 
@@ -33,8 +33,8 @@ const removeDiacritics = (str) => {
     const response = await fetch(
       `https://noembed.com/embed?url=https://www.youtube.com/watch?v=${id}`
     );
-    const nombre = fileArg.split("/")
-    const ruta = nombre[nombre.length - 1].split(".")[0]
+    const nombre = fileArg.split("/");
+    const ruta = nombre[nombre.length - 1].split(".")[0];
     const data = await response.json();
 
     // Extrae los datos relevantes
@@ -43,7 +43,7 @@ const removeDiacritics = (str) => {
     // Construye el objeto
     const updatedFrontMatter = {
       // title,
-      description: author_name,
+      description: "casa con jardin : " + author_name,
       author: author_name,
       slug: slug,
       image: thumbnail_url,
@@ -59,14 +59,11 @@ const removeDiacritics = (str) => {
       // type: "youtube",
     };
 
-
-    
-
     // Genera el output
     const output = JSON.stringify({
       frontmatter: updatedFrontMatter,
     });
 
-    console.log(output)
+    console.log(output);
   }
 })();

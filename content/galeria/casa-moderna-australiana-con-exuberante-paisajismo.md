@@ -1,16 +1,17 @@
 ---
 title: Casa moderna australiana con exuberante paisajismo
-description: Home Designing
+description: "casa con jardin : Home Designing"
 image: https://i.ytimg.com/vi/VdkQm3g9jYw/hqdefault.jpg
-alt: Lushly Landscaped Modern Australian House
-width: 480
-height: 360
+alt: foto Lushly Landscaped Modern Australian House
+width: 200
+height: 113
 youtube: VdkQm3g9jYw
-slug: casa-moderna-australiana-con-exuberante-paisajismo
-lastmod: 2023-03-28T08:38:06.468Z
+slug: /youtube/casa-moderna-australiana-con-exuberante-paisajismo
+lastmod: 2023-04-04T05:38:04.225Z
 date: 2023-03-28T08:34:44.144Z
 draft: false
 type: youtube
+author: Home Designing
 ---
 
 ## Casa moderna australiana con exuberante paisajismo

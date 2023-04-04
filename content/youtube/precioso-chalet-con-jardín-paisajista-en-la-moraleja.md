@@ -12,15 +12,17 @@ etiquetas:
   - en venta
 categorias: ""
 draft: ""
-lastmod: 2023-03-31T09:39:56.387Z
+lastmod: 2023-04-04T05:27:06.258Z
 date: 2023-03-31T09:33:54.013Z
 type: youtube
 ---
+
 ## Precioso chalet en la moraleja
 
-:youtube{ id="gg4xonv7-mw" }
+:youtube{ id="gg4xonv7-mw" alt="La moraleja -- Madrid" }
 
 Características:
+
 - Chalet independiente
 - La Moraleja
 - 680 m2 - Parcela 2.600m2 aprox.

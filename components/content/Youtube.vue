@@ -13,9 +13,6 @@
     <div v-if="alt" class="w-full p-1 text-xs text-center bg-base-200">
       {{ alt }}
     </div>
-    <pre>
-    {{ alt }}
-    </pre>
   </div>
 </template>
 <script setup lang="ts">

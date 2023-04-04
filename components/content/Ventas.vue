@@ -1,6 +1,6 @@
 <template>
   <div class="w-full md:p-normal">
-    <h3 class="text-primary">En venta</h3>
+    <h3 class="text-primary">Casa con jardin: Se vende</h3>
 
     <ContentList :query="query" v-slot="{ list }">
       <div

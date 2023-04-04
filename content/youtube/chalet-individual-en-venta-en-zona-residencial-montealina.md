@@ -1,6 +1,6 @@
 ---
 title: Chalet Individual en venta en Zona Residencial Montealina
-description: Katy Walter Haus
+description: "casa con jardin : Katy Walter Haus"
 author: Katy Walter Haus
 slug: /youtube/chalet-individual-en-venta-en-zona-residencial-montealina
 image: https://i.ytimg.com/vi/gbVs8NALH34/hqdefault.jpg
@@ -12,14 +12,14 @@ etiquetas:
   - en venta
 categorias: ""
 draft: ""
-lastmod: 2023-04-04T05:03:29.653Z
+lastmod: 2023-04-04T05:37:07.141Z
 date: 2023-04-04T05:00:48.167Z
 type: youtube
 ---
 
 ## {{ $doc.title}}
 
-:youtube{ :id="youtube" }
+:youtube{ :id="youtube" alt="Barcelona" }
 
 Fantástica casa en venta de 700m2 distribuida en prácticamente dos cómodas plantas y, sobre una impresionante parcela de 4.800m2.
 

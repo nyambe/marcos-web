@@ -1,7 +1,7 @@
 <template>
   <div class="py-5 mb-large md:mb-larger not-prose">
     <Head>
-      <Title>Casas en venta</Title>
+      <Title>Casa con jardid: Se Vende</Title>
       <Meta
         name="description"
         content="Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia."
@@ -9,7 +9,7 @@
       <Meta name="og:image" content="/img/casa-con-jardin.jpeg" />
     </Head>
     <h1 class="mb-5 text-4xl text-center uppercase text-primary">
-      Casas en venta
+      Casa con jardin: Se Vende
     </h1>
     <ContentList :query="query" v-slot="{ list }">
       <div class="grid gap-5 md:grid-cols-3">
