@@ -37,17 +37,25 @@
 :espacio
 
 ::doble
-	::::boton{class="btn-block" size="xlarge"}
+::::boton{class="btn-block" size="xlarge"}
 
-	Editar
+    Editar
 
-	#suffix
-	<Icon name="ri:aliens-fill" />
-		
-  ::::
+    #suffix
+    <Icon name="ri:aliens-fill" />
 
-	::::boton{intent="warning"}
 
-	::::
-:: 
+::::
+
+    ::::boton{intent="warning" size="xlarge" modifiers="outline"}
+    hola
+    #prefix
+    <Icon name="ri:aliens-fill" />
+
+    ::::
+
+::
+:espacio
+:carrousel
+
 :testo
