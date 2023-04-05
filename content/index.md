@@ -1,9 +1,10 @@
 ---
 title: Casa con Jardín | Venta, Diseño, Inspiración, Reportajes
-description: Encuentra la casa con jardín de tus sueños y descubre un oasis inspirador en
+description:
+  Encuentra la casa con jardín de tus sueños y descubre un oasis inspirador en
   casas on jardin
 preview: /casas-con-jardin-small-jpg.webp
-image: /img/casas-con-jardin-small-jpg.webp 
+image: /img/casas-con-jardin-small-jpg.webp
 ---
 
 ::fancy-header
@@ -24,41 +25,41 @@ Explorar
 :espacio
 
 ::columnas
- 	:::card{foto="casas-con-jardin.jpg" enlace="/casas-en-venta"}
+	:::card{foto="casas-con-jardin.jpg" enlace="/casas-en-venta"}
 
-	Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia.
+    Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia.
 
-	#titulo
-	Casas con jardin en venta
+    #titulo
+    Casas con jardin en venta
 
-	#boton
-	Ir
+    #boton
+    Ir
 
-	:::
+    :::
 
-	:::card{foto="interiores.png" enlace="/inspiracion"}
+    :::card{foto="interiores.png" enlace="/inspiracion"}
 
-	Descubre las últimas tendencias y consejos en diseño de interiores para convertir tu casa en un espacio elegante y acogedor
+    Descubre las últimas tendencias y consejos en diseño de interiores para convertir tu casa en un espacio elegante y acogedor
 
-	#titulo
-	Inspiración en Diseño de Interiores
+    #titulo
+    Inspiración en Diseño de Interiores
 
-	#boton
-	Ver
+    #boton
+    Ver
 
-	:::
+    :::
 
-	:::card{foto="espacios.png" enlace="/blog" }
+    :::card{foto="espacios.png" enlace="/blog" }
 
-	Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
+    Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
 
-	#titulo
-	Consejos y tendencias
+    #titulo
+    Consejos y tendencias
 
-	#boton
-	Leer
+    #boton
+    Leer
 
-	:::
+  :::
 
 ::
 
@@ -66,35 +67,35 @@ Explorar
 
 ::bloque{titulo="Artículos"}
 
-	:::ficha{foto="jardin.png" articulo="diseno-interiores-armonia-bienestar"}
+    :::ficha{foto="jardin.png" articulo="diseno-interiores-armonia-bienestar"}
 
-	Creando Armonía y Bienestar en tu Hogar. Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria
+    Creando Armonía y Bienestar en tu Hogar. Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria
 
-	#titulo
-	La Magia del Diseño de Interiores
+    #titulo
+    La Magia del Diseño de Interiores
 
-	#boton
-	Ver más
+    #boton
+    Ver más
 
-	:::
+    :::
 
-	::espacio
+    ::espacio
 
-	:::ficha{foto="interiores.png" articulo="blog/disena-manten-espacios-encantadores-en-tu-hogar"}
+    :::ficha{foto="interiores.png" articulo="blog/disena-manten-espacios-encantadores-en-tu-hogar"}
 
-	Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
+    Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
 
-	#titulo
-	Consejos y tendencias
+    #titulo
+    Consejos y tendencias
 
-	#boton
-	Ver más
+    #boton
+    Ver más
 
-	:::
+    :::
 
-	::espacio
+    ::espacio
 
-	:::ficha{foto="beach-house.jpg" articulo="blog/consejos-para-comprar-una-casa-de-playa"}
+    :::ficha{foto="beach-house.jpg" articulo="blog/consejos-para-comprar-una-casa-de-playa"}
 
 Si estás pensando en comprar una casa de playa, descubre los factores importantes que debes considerar antes...
 
@@ -108,10 +109,9 @@ Leer más
 
 ::espacio
 
-:::ficha{foto="mountain-cabin.jpg" articulo="Cómo construir una cabaña de montaña"}
+:::ficha{foto="mountain-cabin.jpg" articulo="blog/2023-04-05-crear-una-cabana-desde-cero"}
 
-
-Si estás interesado en tener una escapada de montaña propia, aprende cómo construir una cabaña de montaña desde cero... 
+Si estás interesado en tener una escapada de montaña propia, aprende cómo construir una cabaña de montaña desde cero...
 
 #titulo
 Cabañas de montaña
@@ -122,7 +122,7 @@ Ver más
 :::
 
 ::espacio
-:::ficha{foto="herb-garden.jpg" articulo="Cómo hacer crecer un jardín de hierbas en tu casa"}
+:::ficha{foto="herb-garden.jpg" articulo="blog/2023-04-05-cultiva-hierbas-frescas-en-casa"}
 
 Aprende cómo hacer crecer un jardín de hierbas frescas en tu casa, incluso si no tienes un jardín exterior. Descubre cómo seleccionar las hierbas adecuadas, cómo plantar y cuidar tus hierbas en macetas...
 
@@ -137,4 +137,3 @@ Ver más
 ::
 
 :inspiradores
-
