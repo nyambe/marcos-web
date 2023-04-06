@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/image-edge",
     "nuxt-icon",
+    "@formkit/nuxt"
   ],
   googleFonts: {
     families: {
