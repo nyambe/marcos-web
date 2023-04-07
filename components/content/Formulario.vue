@@ -6,7 +6,7 @@ import { MultiCompiler } from "webpack";
 const schema = [
   {
     $formkit: "text",
-    name: "nombre",
+    name: "name",
     label: "Nombre completo",
     placeholder: "Cómo te llamas?..."
   },
@@ -24,6 +24,15 @@ const schema = [
   },
 ];
 
+const url = "https://getform.io/f/bb6e7762-b593-4686-999e-4819c69c5409"
+
+interface Data {
+  name: string | null;
+  email: string | null;
+  asunto: string | null;
+  hasEmail: boolean;
+}
+
 const data = ref({
   name: null,
   email: null,
@@ -31,27 +40,28 @@ const data = ref({
   hasEmail: false,
 });
 
-const handleSubmit = (e: Event) => {
-	console.log('llega')
+const handleSubmit = (params: Data) => {
+	const json = JSON.parse(JSON.stringify(params));
+  const formData = new FormData();
+  for (const key in json) {
 
-		if (e.target instanceof HTMLFormElement) {
-		const formData = new FormData(e.target);
+    if (json.hasOwnProperty(key) && json[key as keyof Data] !== null) {
+      formData.append(key, json[key as keyof Data] as string);
+    }
+  }
 
-		fetch("https://getform.io/f/bb6e7762-b593-4686-999e-4819c69c5409", {
-				method: "POST",
-				body: formData,
-				headers: {
-						"Accept": "application/json",
-				},
-		})
-		.then(response => console.log(response))
-		.catch(error => console.log(error))
+  fetch(url, {
+    method: "POST",
+    body: formData,
+    headers: {
+      Accept: "application/json",
+    },
+  })
+    .then((response) => console.log(response))
+    .catch((error) => console.log(error));
 
-
-		console.log("submit", data.value, e.target, formData);
-		alert("Valid submit!")
-	}
-
+  console.log("submit", params, json, formData);
+  alert("Envío correcto");
 };
 
 </script>
@@ -61,7 +71,4 @@ const handleSubmit = (e: Event) => {
   <FormKitSchema :schema="schema" :data="data" />
 </FormKit>
 
-<pre>
-{{ data }}
-</pre>
 </template>
