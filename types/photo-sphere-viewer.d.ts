@@ -7,6 +7,7 @@ declare module 'photo-sphere-viewer' {
     navbar?: string[];
     autorotateSpeed?: string;
     touchmoveTwoFingers?: boolean;
+		autorotateDelay?: number;
   }
 
   export class Viewer {

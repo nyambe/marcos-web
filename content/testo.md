@@ -59,3 +59,4 @@
 :carrousel
 
 :formulario
+:viewer

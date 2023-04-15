@@ -25,6 +25,10 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@vueuse/core": "^9.13.0",
     "class-variance-authority": "^0.5.1",
-    "daisyui": "^2.51.3"
+    "consola": "^3.0.2",
+    "console": "^0.7.2",
+    "daisyui": "^2.51.3",
+    "photo-sphere-viewer": "4.3.0-rc.1",
+    "three": "^0.151.3"
   }
 }
