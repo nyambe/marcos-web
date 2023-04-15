@@ -22,13 +22,15 @@
     "@formkit/nuxt": "^0.16.4",
     "@headlessui/tailwindcss": "^0.1.2",
     "@nuxtjs/i18n": "^7.3.1",
+    "@photo-sphere-viewer/autorotate-plugin": "^5.1.4",
+    "@photo-sphere-viewer/core": "^5.1.4",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@vueuse/core": "^9.13.0",
     "class-variance-authority": "^0.5.1",
     "consola": "^3.0.2",
     "console": "^0.7.2",
+    "core": "link:@types/@photo-sphere-viewer/core",
     "daisyui": "^2.51.3",
-    "photo-sphere-viewer": "4.3.0-rc.1",
     "three": "^0.151.3"
   }
 }

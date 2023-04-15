@@ -5,7 +5,8 @@
 
 <script lang="ts" setup>
 import { onMounted, ref } from 'vue';
-import { Viewer, ViewerOptions } from 'photo-sphere-viewer';
+import { Viewer, ViewerConfig  } from '@photo-sphere-viewer/core';
+import { AutorotatePlugin } from '@photo-sphere-viewer/autorotate-plugin'
 
 const viewer = ref<HTMLDivElement | null>(null);
 
@@ -15,8 +16,8 @@ const currentImage = ref(Math.floor(Math.random() * 4))
 const animatedValues = {
     pitch: { start: -Math.PI / 2, end: 0.2 },
     yaw: { start: Math.PI, end: 0 },
-    zoom: { start: 0, end: 50 },
-    fisheye: { start: 2, end: 0 },
+    zoom: { start: 60, end: 50 },
+    fisheye: { start: 1, end: 0 },
 };
 
 
@@ -26,16 +27,29 @@ const imagenes = ['/img/realistic_gardens_full_of_beautiful_flowers_and_ho.jpeg'
 
 onMounted(() => {
   if (viewer.value) {
-    const options: ViewerOptions = {
+    const options: ViewerConfig = {
       container: viewer.value,
       panorama: imagenes[currentImage.value],
+      caption: 'Parc national du Mercantour <b>&copy; Damien Sorel</b>',
+      // defaultPitch: animatedValues.pitch.start,
+      // defaultYaw: animatedValues.yaw.start,
+      defaultZoomLvl: animatedValues.zoom.start,
+      fisheye: animatedValues.fisheye.start,
       navbar: [
         'autorotate',
         'zoom',
         'fullscreen',
       ],
-      autorotateSpeed: '1rpm',
       touchmoveTwoFingers: true,
+      plugins: [
+        [
+          AutorotatePlugin,
+          {
+            speed: 0,
+          },
+        ],
+      ],
+
 
     };
     const sphereViewer = new Viewer(options);
