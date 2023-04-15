@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@formkit/nuxt"
   ],
+  plugins: [
+
+  ],
   googleFonts: {
     families: {
       Raleway: true,
