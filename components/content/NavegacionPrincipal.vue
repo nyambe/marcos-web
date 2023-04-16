@@ -1,6 +1,6 @@
 <template>
-  <Disclosure class="w-full" v-slot="{ open }" as="div">
-    <div class="sticky top-0 z-50 bg-opacity-60 bg-base-100 text-content navbar not-prose">
+  <Disclosure class="w-full bg-opacity-70 bg-base-100" v-slot="{ open }" as="div">
+    <div class="sticky top-0 z-50 text-content navbar not-prose">
       <div class="flex-none"></div>
       <div class="flex-1">
         <nuxt-link

@@ -53,7 +53,7 @@
       </DisclosurePanel>
     </Disclosure>
     <div class="w-full p-small">
-    
+      <nuxt-img fit="cover" format="webp" sizes="sm:100vw md:320px lg:400px" :src="`${foto}`" :alt="`${foto}`" />
     </div>
   </div>
 </template>
@@ -78,6 +78,8 @@ export interface Navegacion {
 }
 const { navigation, page, surround, globals, toc } = useContent();
 const menu = ref<Navegacion[]>();
+
+const foto = "/img/mkl_music.jpg"
 
 menu.value = navigation.value as Navegacion[];
 

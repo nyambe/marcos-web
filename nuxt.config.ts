@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Raleway: true,
-      Lora: true,
+      Playfair: true,
     },
   },
   content: {
