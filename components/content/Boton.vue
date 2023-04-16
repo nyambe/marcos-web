@@ -33,7 +33,7 @@ const button = cva("button", {
     },
   },
   compoundVariants: [
-    { intent: "primary", size: "medium", class: "capitalize" },
+    { intent: "primary", size: "xlarge", class: "uppercase" },
   ],
   defaultVariants: {
     intent: "primary",
