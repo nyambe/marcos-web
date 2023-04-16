@@ -24,7 +24,7 @@ image: /img/casas-con-jardin-small-jpg.webp
       Casas en venta
     ::::
     ::::boton{to="inspiracion"}
-      Inspiracion
+      Inspiración
     ::::
   ::
 	::
