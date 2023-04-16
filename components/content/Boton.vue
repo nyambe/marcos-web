@@ -12,7 +12,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 const button = cva("button", {
   variants: {
     intent: {
-      default: "btn",
+      default: "btn btn-default",
       primary: "btn btn-primary",
       secondary: "btn btn-secondary",
       accent: "btn btn-accent",
@@ -21,7 +21,7 @@ const button = cva("button", {
     },
     size: {
       small: "btn-sm",
-      medium: "btn",
+      medium: "",
       large: "btn-lg",
       xlarge: "btn-xl",
       xsmall: "btn-xs",
@@ -36,7 +36,7 @@ const button = cva("button", {
     { intent: "primary", size: "xsmall", class: "uppercase" },
   ],
   defaultVariants: {
-    intent: "primary",
+    intent: "default",
     size: "medium",
   },
 });

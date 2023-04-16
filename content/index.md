@@ -1,147 +1,36 @@
 ---
-title: Casa con Jardín | Venta, Diseño, Inspiración, Reportajes
-description:
-  Encuentra la casa con jardín de tus sueños y descubre un oasis inspirador en
-  casas on jardin
-preview: /casas-con-jardin-small-jpg.webp
-image: /img/casas-con-jardin-small-jpg.webp
+title: "MKL Music | Producción, Composición, Mezcla y Masterización"
+description: "Encuentra el sonido perfecto para tus proyectos musicales y descubre el mundo creativo de MKL Music"
+preview: /fondo_marcos.webp
+image: /img/fondo_marcos_800.webp
 ---
-::viewer
-	::fancy-header
+::background-image
+::bloque
+:navegacion-principal
+  ::fancy-header
+  #titulo
+  MKL Music
 
-	#titulo
-	Casa con jardín
+  #subtitulo
+  Producción musical, composición, mezcla y masterización
 
-	#subtitulo
-	Encuentra tu oasis con jardín y diseño inspirador
+  #texto
+  Bienvenido a "MKL Music", tu guía para encontrar el sonido perfecto en tus proyectos musicales. Explora el mundo creativo de MKL Music, un productor que te ayudará a alcanzar tus metas en la industria de la música. Descubre técnicas de producción, composición, mezcla y masterización que transformarán tus ideas en éxitos musicales.
 
-	#texto
-	Bienvenido a "Casa con Jardín", tu guía para encontrar la casa ideal con espacios verdes y diseño encantador. Explora propiedades únicas, descubre consejos de diseño de interiores y paisajismo, y crea el oasis perfecto en tu propio hogar. ¡Inspírate y transforma tu vida con un toque de naturaleza!
-
-	#accion
+  #accion
   ::doble
-    ::::boton{to="casas-en-venta"}
-      Casas en venta
+    ::::boton{to="produccion-musical"}
+      Producción Musical
     ::::
     ::::boton{to="inspiracion"}
       Inspiración
     ::::
   ::
-	::
+
 ::
 
 :espacio
 
-::columnas
-	:::card{foto="casas-con-jardin.jpg" enlace="/casas-en-venta"}
-
-    Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia.
-
-    #titulo
-    Casas con jardin en venta
-
-    #boton
-    Ir
-
-    :::
-
-    :::card{foto="interiores.png" enlace="/inspiracion"}
-
-    Descubre las últimas tendencias y consejos en diseño de interiores para convertir tu casa en un espacio elegante y acogedor
-
-    #titulo
-    Inspiración en Diseño de Interiores
-
-    #boton
-    Ver
-
-    :::
-
-    :::card{foto="espacios.png" enlace="/blog" }
-
-    Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
-
-    #titulo
-    Consejos y tendencias
-
-    #boton
-    Leer
-
-  :::
-
+::bloque
+:boton
 ::
-
-:ventas
-
-::bloque{titulo="Artículos"}
-
-    :::ficha{foto="jardin.png" articulo="diseno-interiores-armonia-bienestar"}
-
-    Creando Armonía y Bienestar en tu Hogar. Descubre cómo un buen diseño de interiores puede mejorar tu vida diaria
-
-    #titulo
-    La Magia del Diseño de Interiores
-
-    #boton
-    Ver más
-
-    :::
-
-    ::espacio
-
-    :::ficha{foto="interiores.png" articulo="blog/disena-manten-espacios-encantadores-en-tu-hogar"}
-
-    Aprende trucos y técnicas para diseñar y mantener un hermoso espacio que complemente perfectamente tu hogar
-
-    #titulo
-    Consejos y tendencias
-
-    #boton
-    Ver más
-
-    :::
-
-    ::espacio
-
-    :::ficha{foto="beach-house.jpg" articulo="blog/consejos-para-comprar-una-casa-de-playa"}
-
-Si estás pensando en comprar una casa de playa, descubre los factores importantes que debes considerar antes...
-
-#titulo
-Casas de playa
-
-#boton
-Leer más
-
-:::
-
-::espacio
-
-:::ficha{foto="mountain-cabin.jpg" articulo="blog/2023-04-05-crear-una-cabana-desde-cero"}
-
-Si estás interesado en tener una escapada de montaña propia, aprende cómo construir una cabaña de montaña desde cero...
-
-#titulo
-Cabañas de montaña
-
-#boton
-Ver más
-
-:::
-
-::espacio
-:::ficha{foto="herb-garden.jpg" articulo="blog/2023-04-05-cultiva-hierbas-frescas-en-casa"}
-
-Aprende cómo hacer crecer un jardín de hierbas frescas en tu casa, incluso si no tienes un jardín exterior. Descubre cómo seleccionar las hierbas adecuadas, cómo plantar y cuidar tus hierbas en macetas...
-
-#titulo
-Jardín de hierbas
-
-#boton
-Ver más
-
-:::
-
-::
-
-:inspiradores

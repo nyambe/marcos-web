@@ -1,12 +1,12 @@
 <template>
-  <Disclosure v-slot="{ open }" as="div">
-    <div class="sticky top-0 z-50 bg-base-100 text-primary navbar not-prose">
+  <Disclosure class="w-full" v-slot="{ open }" as="div">
+    <div class="sticky top-0 z-50 bg-opacity-60 bg-base-100 text-content navbar not-prose">
       <div class="flex-none"></div>
       <div class="flex-1">
         <nuxt-link
           to="/"
           class="text-xl font-bold normal-case md:text-2xl btn btn-ghost"
-          >CASA CON JARDIN
+          >MKL Music
         </nuxt-link>
       </div>
       <div v-if="cabecera" class="md:flex-none">

@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="h-screen hero not-prose fancy-header"
-   
-  >
+  <div class="h-screen hero not-prose fancy-header">
     <div class="bg-opacity-50 hero-overlay"></div>
     <div class="text-center hero-content text-neutral-content">
     

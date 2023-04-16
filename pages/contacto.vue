@@ -5,9 +5,9 @@
       <Meta name="description" content="Explora nuestra selección de casas con jardín excepcionales y encuentra la propiedad perfecta para ti y tu familia." />
       <Meta name="og:image" content="/img/casa-con-jardin.webp" />
     </Head>
-		<div class="card bg-base-100 ">
+		<div class="h-screen card bg-base-100 ">
 		<Formulario />
-		<div class="flex justify-center px-4 py-16 bg-base-200 text-info-content">@samiebuka - @asuntellointeriorismo</div>
+		<div class="flex justify-center px-4 py-16 ">@samiebuka - @asuntellointeriorismo</div>
 	</div>
 	</div>
 </template>

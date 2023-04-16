@@ -15,7 +15,8 @@ export default defineComponent({
   props: {
     src: {
       type: String,
-      required: true,
+      required: false,
+      default: "/img/fondo_marcos.webp"
     },
   },
 });

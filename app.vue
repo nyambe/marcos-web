@@ -1,10 +1,10 @@
 <template>
-  <div data-theme="garden" class="w-full bg-base-100">
+  <div data-theme="luxury" class="w-full bg-base-100">
     <div ref="contenido" class="contenido">
       <!-- <LaNavegacion class="w-full mx-auto max-w-7xl"  /> -->
-      <NavegacionPrincipal />
+      <!-- <NavegacionPrincipal /> -->
       <NuxtPage />
-      <ElPie />
+      <!-- <ElPie /> -->
     </div>
   </div>
 </template>
