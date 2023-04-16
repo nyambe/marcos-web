@@ -6,20 +6,21 @@ description:
 preview: /casas-con-jardin-small-jpg.webp
 image: /img/casas-con-jardin-small-jpg.webp
 ---
+::viewer
+	::fancy-header
 
-::fancy-header
+	#titulo
+	Casa con jardín
 
-#titulo
-Casa con jardín
+	#subtitulo
+	Encuentra tu oasis con jardín y diseño inspirador
 
-#subtitulo
-Encuentra tu oasis con jardín y diseño inspirador
+	#texto
+	Bienvenido a "Casa con Jardín", tu guía para encontrar la casa ideal con espacios verdes y diseño encantador. Explora propiedades únicas, descubre consejos de diseño de interiores y paisajismo, y crea el oasis perfecto en tu propio hogar. ¡Inspírate y transforma tu vida con un toque de naturaleza!
 
-#texto
-Bienvenido a "Casa con Jardín", tu guía para encontrar la casa ideal con espacios verdes y diseño encantador. Explora propiedades únicas, descubre consejos de diseño de interiores y paisajismo, y crea el oasis perfecto en tu propio hogar. ¡Inspírate y transforma tu vida con un toque de naturaleza!
-
-#boton
-Explorar
+	#boton
+	Explorar
+	::
 ::
 
 :espacio

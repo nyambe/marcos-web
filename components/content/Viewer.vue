@@ -1,6 +1,15 @@
 <template>
 	<!-- <img src="/img/realistic_gardens_full_of_beautiful_flowers_and_ho.jpeg" alt="imagen"> -->
-  <div ref="viewer" id="viewer" class="w-full h-screen bg-black"></div>
+  <div class="relative">
+    <div ref="viewer" id="viewer" class="w-full h-screen bg-black">
+    </div>
+      <div class="absolute top-0 flex flex-col justify-center w-full h-screen not-prose">
+          <slot></slot>
+      </div>
+      <!-- <div class="w-full py-10">
+        <figure v-for="foto in imagenes" :key="foto"><nuxt-img fit="cover" format="webp" sizes="sm:100vw md:1920px lg:6144px" :src="`${foto}`" :alt="`${foto}`" /></figure>
+      </div> -->
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -10,8 +19,25 @@ import { AutorotatePlugin } from '@photo-sphere-viewer/autorotate-plugin'
 
 const viewer = ref<HTMLDivElement | null>(null);
 
+const imagenes = [
+    "/img/realistic_a_cabin_with_a_garden_full_of_beautiful_.webp",
+    "/img/realistic_a_house_on_a_mountain_top_with_a_garden_ (1).webp",
+    "/img/realistic_a_house_on_a_mountain_top_with_a_garden_.webp",
+    "/img/realistic_a_house_with_a_garden_full_of_beautiful_ 2.webp",
+    "/img/realistic_a_house_with_a_garden_full_of_beautiful_.webp",
+    "/img/realistic_a_house_with_a_garden_on_a_island.webp",
+    "/img/realistic_a_house_with_a_garden_on_a_tropical_beac.webp",
+    "/img/realistic_gardens_full_of_beautiful_flowers_and_ho.webp",
+    "/img/scenic_a_house_with_a_garden_full_of_beautiful_ros.webp",
+    "/img/realistic_gardens_full_of_beautiful_flowers_and_ho3.webp",
+    "/img/interior_views_a_house_with_a_garden_full_of_beaut.webp",
+    "/img/interior_views_a_house_on_a_mountain_top_with_a_ga1.webp",
+    "/img/interior_views_a_house_on_a_mountain_top_with_a_ga.webp",
+]
+
+
 // currentImage random between 0 and 5
-const currentImage = ref(Math.floor(Math.random() * 4))
+const currentImage = ref(Math.floor(Math.random() * imagenes.length))
 
 const animatedValues = {
     pitch: { start: -Math.PI / 2, end: 0.2 },
@@ -20,10 +46,21 @@ const animatedValues = {
     fisheye: { start: 1, end: 0 },
 };
 
+// const config: ViewerConfig = {
+//     container: viewer.value,
+//     panorama: '/img/realistic_gardens_full_of_beautiful_flowers_and_ho.webp',
+//     plugins: [
+//         [
+//             AutorotatePlugin,
+//             {
+//                 speed: 0.5,
+//                 animatedValues,
+//             },
+//         ],
+//     ],
+// };
 
 
-
-const imagenes = ['/img/realistic_gardens_full_of_beautiful_flowers_and_ho.jpeg', '/img/scenic_a_house_with_a_garden_full_of_beautiful_ros.jpeg', '/img/interior_views_a_house_with_a_garden_full_of_beaut.jpeg','/img/realistic_a_house_with_a_garden_full_of_beautiful_.jpeg', '/img/realistic_gardens_full_of_beautiful_flowers_and_ho3.jpeg' ]
 
 onMounted(() => {
   if (viewer.value) {

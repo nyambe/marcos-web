@@ -1,9 +1,9 @@
 <template>
   <div
-    class="min-h-fit hero not-prose fancy-header"
-    style="background-image: url(/img/casa-con-jardin.webp)"
+    class="h-screen hero not-prose fancy-header"
+   
   >
-    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="bg-opacity-50 hero-overlay"></div>
     <div class="text-center hero-content text-neutral-content">
     
       <div class="py-20 max-w-7xl">
