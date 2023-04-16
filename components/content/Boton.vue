@@ -1,10 +1,13 @@
+<template>
+  <button @click="navigate" class="gap-2 not-prose" :class="button({ intent, size, modifiers })">
+    <slot v-if="$slots.prefix" name="prefix" />
+    <slot>Botón</slot>
+    <slot v-if="$slots.suffix" name="suffix" />
+  </button>
+</template>
+
 <script setup lang="ts">
 import { cva, type VariantProps } from "class-variance-authority";
-
-// <button class="btn btn-lg">Large</button>
-// <button class="btn">Normal</button>
-// <button class="btn btn-sm">Small</button>
-// <button class="btn btn-xs">Tiny</button>
 
 const button = cva("button", {
   variants: {
@@ -40,17 +43,48 @@ const button = cva("button", {
 
 type ButtonProps = Required<VariantProps<typeof button>>;
 
-defineProps<{
+const props = defineProps<{
   intent?: ButtonProps["intent"];
   size?: ButtonProps["size"];
   modifiers?: ButtonProps["modifiers"];
+  to?: string;
+  target?: string;
 }>();
+
+const router = useRouter();
+
+const navigate = () => {
+  if (props.to && isExternalLink(props.to)) {
+    if (props.target === "_blank") {
+      window.open(props.to, "_blank", "noopener noreferrer");
+    } else {
+      
+      if (process.client && props.to) {
+        window.location.href = props.to;
+      }
+    }
+  } else if (props.to && isValidRoute(props.to)) {
+    if (props.to) {
+      router.push(props.to);
+    }
+   
+  } else {
+    console.warn("Invalid route:", props.to);
+  }
+};
+
+
+const isExternalLink = (link: string) => {
+  return /^https?:\/\//.test(link);
+};
+
+const isValidRoute = (route: string) => {
+  try {
+    router.resolve(route);
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
 </script>
 
-<template>
-  <button class="gap-2 not-prose" :class="button({ intent, size, modifiers })">
-    <slot v-if="$slots.prefix" name="prefix" />
-    <slot>Botón</slot>
-    <slot v-if="$slots.suffix" name="suffix" />
-  </button>
-</template>

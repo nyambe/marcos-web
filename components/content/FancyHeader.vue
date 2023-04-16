@@ -17,9 +17,12 @@
         <p class="w-full max-w-5xl mb-10 text-2xl text-justify md:mb-24">
           <ContentSlot :use="$slots.texto" unwrap="p" />
         </p>
-        <button v-if="$slots.boton" class="btn btn-primary">
+        <!-- <button v-if="$slots.boton" class="btn btn-primary">
           <ContentSlot :use="$slots.boton" unwrap="p" />
-        </button>
+        </button> -->
+        <div class="flex justify-around w-full">
+          <slot name="accion" />
+        </div>
       </div>
     </div>
   </div>

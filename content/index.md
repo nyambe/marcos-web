@@ -18,8 +18,15 @@ image: /img/casas-con-jardin-small-jpg.webp
 	#texto
 	Bienvenido a "Casa con Jardín", tu guía para encontrar la casa ideal con espacios verdes y diseño encantador. Explora propiedades únicas, descubre consejos de diseño de interiores y paisajismo, y crea el oasis perfecto en tu propio hogar. ¡Inspírate y transforma tu vida con un toque de naturaleza!
 
-	#boton
-	Explorar
+	#accion
+  ::doble
+    ::::boton{to="casas-en-venta"}
+      Casas en venta
+    ::::
+    ::::boton{to="inspiracion"}
+      Inspiracion
+    ::::
+  ::
 	::
 ::
 
