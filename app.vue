@@ -1,9 +1,10 @@
 <template>
-  <div data-theme="luxury" class="w-full bg-base-100">
-    <div ref="contenido" class="contenido">
+  <div data-theme="luxury" class="w-full">
+    <div ref="contenido" class="w-full ">
       <!-- <LaNavegacion class="w-full mx-auto max-w-7xl"  /> -->
       <!-- <NavegacionPrincipal /> -->
       <NuxtPage />
+      
       <!-- <ElPie /> -->
     </div>
   </div>

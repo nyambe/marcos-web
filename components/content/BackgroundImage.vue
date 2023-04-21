@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen bg-center bg-cover"
+    class="w-full h-screen bg-center bg-no-repeat bg-cover"
     :style="`background-image: url(${src})`"
   >
     <slot></slot>
