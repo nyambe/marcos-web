@@ -14,7 +14,7 @@ image: /img/mkl.webp
   Producción musical, composición, mezcla y masterización
 
   #texto
-  Bienvenido a "MKL Music", encuentra el sonido perfecto en tus proyectos musicales.
+  Bienvenido a "MKL Music" - encuentra el sonido perfecto en tus proyectos musicales.
 
   #accion
   ::redes
