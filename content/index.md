@@ -20,3 +20,16 @@ image: /img/mkl.webp
   ::redes
   ::
 ::
+::bloque
+  ## Trabajos
+::
+::doble
+  :spotify{track="5xZmjcm7oY9s9AasZ6iQQV"}
+  :spotify{track="1YUbKHA7zde68vCWt5fd0z"}
+  :spotify{track="3BGXf2BAp8eNt3SJAA962I"}
+  :spotify{track="3m0RteQbI4m0Slh4TGDnZ0"}
+  :spotify{track="4QqLQBX0znVE999hnKLXXm"}
+  :spotify{track="0Fd3900xH77g0ARXQjtYvV"}
+  :spotify{track="00NZj7p8u3TGw9ndrtoE76"}
+  :spotify{album="0l20p0QqEpdpKgXso7Q21O"}
+::
